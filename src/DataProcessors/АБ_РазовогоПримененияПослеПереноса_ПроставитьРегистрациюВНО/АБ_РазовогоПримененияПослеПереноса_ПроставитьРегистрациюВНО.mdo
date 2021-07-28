@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="386afe89-76d7-4430-b0b1-ad5b519a3a32">
+  <producedTypes>
+    <objectType typeId="6fd2dc5f-aa33-4839-8f4a-d04126c6d0ac" valueTypeId="d0930052-46c3-43e1-b99c-37f1efdaa0b8"/>
+    <managerType typeId="d35f830a-1b23-4626-b5e1-4e1a55d783ed" valueTypeId="0cb24899-c420-494f-a4ca-06151dda8e4b"/>
+  </producedTypes>
+  <name>АБ_РазовогоПримененияПослеПереноса_ПроставитьРегистрациюВНО</name>
+  <synonym>
+    <key>ru</key>
+    <value>АБ_РазовогоПримененияПослеПереноса_ПроставитьРегистрациюВНО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АБ_РазовогоПримененияПослеПереноса_ПроставитьРегистрациюВНО.Form.Форма</defaultForm>
+  <attributes uuid="02046f6b-edb1-4538-ad75-819da599c782">
+    <name>РегистрацияНеВерная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация не верная</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РегистрацииВНалоговомОргане</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d341f7f8-fca9-4e42-8631-7860f521df86">
+    <name>РегистрацияВерная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация верная</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РегистрацииВНалоговомОргане</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cfc71ccf-5528-4270-980e-781a2c751a2f">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ab5c2e53-8758-46de-91e3-d2e8c054efbb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

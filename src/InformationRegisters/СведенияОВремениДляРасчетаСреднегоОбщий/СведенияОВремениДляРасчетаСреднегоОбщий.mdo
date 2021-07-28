@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="796bcb05-2edc-44fc-932e-a2719ea7e8b7" extendedConfigurationObject="6fff3a00-399a-4714-9814-eba0b0b1ee18">
+  <producedTypes>
+    <selectionType typeId="e4426419-04ca-46d6-9e74-8c0220998862" valueTypeId="070eae84-cdaa-472e-99d3-5ccf8a4cf1bc"/>
+    <listType typeId="40d29f07-50b4-4d15-b531-1a34ac128845" valueTypeId="79596f33-2c28-42ed-8524-c5c8191f6a0a"/>
+    <managerType typeId="79b67ca4-609b-4eab-b674-185a334c142c" valueTypeId="6def1fa1-9bc3-4257-a2a2-188acd944e50"/>
+    <recordSetType typeId="4ee08013-e930-424b-8c4a-e910060e66bf" valueTypeId="4ece9f19-8696-4e9b-a669-5e0fda658914"/>
+    <recordKeyType typeId="4b8f87c4-4818-4a23-8ebd-37083932587c" valueTypeId="252b07f1-904d-4e47-b12a-6e07cee54224"/>
+    <recordType typeId="0f0e98fe-f8a5-48da-b10f-7463c596525e" valueTypeId="7fa5f2d0-2344-49d6-be51-f21197a45cba"/>
+    <recordManagerType typeId="0a0a2610-d7d0-4498-a272-0a77224dd768" valueTypeId="52ee29f1-0db9-425c-8079-e38468d5055b"/>
+  </producedTypes>
+  <name>СведенияОВремениДляРасчетаСреднегоОбщий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="7915fa7b-01c9-45f7-a5ea-2f52bcb4f66e" extendedConfigurationObject="a15fd4d2-b295-40e1-9142-f263337e28d0">
+    <name>Сотрудник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="d06c7d9d-bf4e-4346-a5d7-736cc9140662" extendedConfigurationObject="9e722598-d506-4496-8f79-f397c1cdf3d9">
+    <name>Месяц</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="863db4be-669c-4d3d-912d-55edf8590e89" extendedConfigurationObject="2cc1c15c-4a7d-444e-b61e-51e06863f2ba">
+    <name>ПорядокРасчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>EnumRef.ПорядокРасчетаСреднегоЗаработкаОбщий</types>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

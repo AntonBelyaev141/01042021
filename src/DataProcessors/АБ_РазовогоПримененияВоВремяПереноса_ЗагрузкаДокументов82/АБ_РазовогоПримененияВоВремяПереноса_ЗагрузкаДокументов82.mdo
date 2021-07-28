@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61c6d5f8-307d-49ab-959c-4c0c0778e612">
+  <producedTypes>
+    <objectType typeId="e6a60b4f-d735-4c49-a030-7af5e4d55f63" valueTypeId="270cea74-ef30-4a1b-9dd7-4d87bae9c89b"/>
+    <managerType typeId="15ccef19-12cb-4156-b881-6ba09f77c11e" valueTypeId="32b32722-bcae-4a82-b1da-95068a7d2a0d"/>
+  </producedTypes>
+  <name>АБ_РазовогоПримененияВоВремяПереноса_ЗагрузкаДокументов82</name>
+  <synonym>
+    <key>ru</key>
+    <value>АБ_РазовогоПримененияВоВремяПереноса_ЗагрузкаДокументов82</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АБ_РазовогоПримененияВоВремяПереноса_ЗагрузкаДокументов82.Form.Форма2</defaultForm>
+  <attributes uuid="794dc19d-84bc-4319-984c-714fa75c2bc0">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6b3c2d8-956b-4bba-9f64-9b5fa4181f55">
+    <name>КаталогИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог импорта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eee3b2e3-37d9-428e-ad08-4ab4f6102aa6">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="fe2db0aa-bc61-4fbe-9b91-ebf3e3896e89">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="802e3d7a-25dd-4752-b0c7-52fb0f680d07">
+    <name>Форма2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

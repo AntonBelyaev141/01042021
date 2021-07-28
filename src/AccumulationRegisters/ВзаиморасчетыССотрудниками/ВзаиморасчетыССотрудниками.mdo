@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="072c8b7a-378f-4ec3-81c4-f509a69a37b6" extendedConfigurationObject="2d6ba3a1-be39-433b-ba3c-76e37cd89ccf">
+  <producedTypes>
+    <selectionType typeId="218bf25a-bb1d-4e8f-9b12-723e8cac10c9" valueTypeId="a92db017-a03f-4757-bb08-77b84c53d160"/>
+    <listType typeId="16bbf444-4e24-427a-9e75-f6eb8c3c02c7" valueTypeId="6ece3c90-a739-45ad-a459-2e118ac84f47"/>
+    <managerType typeId="7ea427f9-e3b3-424a-8864-bf236680af8b" valueTypeId="9215a831-9ad9-4689-83ff-458938a4fba0"/>
+    <recordSetType typeId="e8da9524-a07f-40ad-8d9e-4dd050b53658" valueTypeId="51365654-c80b-4788-9054-9476a1200b46"/>
+    <recordKeyType typeId="25fab16f-0487-491a-8064-7e5731243571" valueTypeId="f94377f3-3282-435a-95b8-ef338934e6de"/>
+    <recordType typeId="d4183239-0be9-49da-96ad-90bf09043f66" valueTypeId="1fef973f-fc85-45be-845a-d55a18a87fa6"/>
+  </producedTypes>
+  <name>ВзаиморасчетыССотрудниками</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="f6f1e6f8-7e25-41de-85fb-0c85f7819e63" extendedConfigurationObject="6685be85-9b81-45a3-a690-d60a3d1f01d3">
+    <name>СуммаВзаиморасчетов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <attributes uuid="47166c0d-453f-437f-bc7b-b218a425dc85" extendedConfigurationObject="9b8533fa-953d-404b-969f-b0ad54d2bde5">
+    <name>ГруппаНачисленияУдержанияВыплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>EnumRef.ГруппыНачисленияУдержанияВыплаты</types>
+    </type>
+  </attributes>
+  <dimensions uuid="9d95f8f1-f1e3-4381-8a86-8fc8219290cf" extendedConfigurationObject="9cda3efa-ecf3-41f9-a03c-f4ceb6a2f056">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+  </dimensions>
+</mdclass:AccumulationRegister>

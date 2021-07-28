@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b542f688-6497-4f43-b296-9ef961f27340" extendedConfigurationObject="efc43018-770d-4e8d-bbac-247df1207f35">
+  <producedTypes>
+    <refType typeId="f047d3ca-716d-4e7e-b46b-be9ef134f819" valueTypeId="cbe8a907-2229-49c2-9b20-a6abe0de7f94"/>
+    <listType typeId="c06bf211-3393-4d03-ae8c-57b40d65d905" valueTypeId="0e194381-cf96-4a75-8191-25f1d6749cf2"/>
+    <managerType typeId="5062b765-e117-4e52-8103-7980194d843d" valueTypeId="ce17bb04-9956-4bcb-8d61-bd258b7c3695"/>
+  </producedTypes>
+  <name>ОтношениеКЕНВДЗатратНаЗарплату</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="aaa4a9e5-05b4-4546-83d6-664bb9979b10" extendedConfigurationObject="b5fa6646-0638-4349-abeb-51a0572c53af">
+    <name>ЕНВД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="47389ba0-e272-4882-aa61-d43fd11c3e71" extendedConfigurationObject="7cacdb4f-574d-4dde-b9dc-bcc3d92fdfea">
+    <name>НеЕНВД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

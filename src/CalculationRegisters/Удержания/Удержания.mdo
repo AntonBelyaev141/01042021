@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d6edacce-e337-44e1-868d-060a052f29e0" extendedConfigurationObject="03ccda6c-33a9-4c9e-9f21-27fc6dd07aaf">
+  <producedTypes>
+    <selectionType typeId="b1ee1a38-352d-44a9-8669-de92bd403e13" valueTypeId="25eeaa57-c8cf-47f2-af63-153fabd927cf"/>
+    <listType typeId="ac4750a5-3b0d-4c72-a917-f2e480429fee" valueTypeId="dc3efef2-1c2c-472c-bb43-ce50d5efff07"/>
+    <managerType typeId="7ab232ea-a23c-4894-b9c5-f904a11f7208" valueTypeId="518a5582-b2d9-4003-ab5d-ce16e56507d2"/>
+    <recordSetType typeId="64412967-09c8-4147-9f83-c3a3774afb34" valueTypeId="4213d428-f693-4627-a8e8-83589708b316"/>
+    <recordKeyType typeId="d114160e-3eb0-4c4a-8f3a-8e464dc46b6b" valueTypeId="b4c475a3-61ce-48af-b07e-780677cfb7a0"/>
+    <recordType typeId="975d31e0-4e53-4dd9-ab39-de31f0e4ce62" valueTypeId="1500cbe5-a09f-44ea-917a-1878102f116f"/>
+    <recalcsType typeId="8da78837-457c-49df-9094-9c322754e16d" valueTypeId="37d130b2-fec5-4d1c-9f02-091bf09ec31c"/>
+  </producedTypes>
+  <name>Удержания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CalculationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <resources uuid="dd741ee3-518f-4452-8d1c-36194f22a506" extendedConfigurationObject="6b9775dd-5599-452f-a217-6feeeea98a3f">
+    <name>Результат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="f605174f-0b87-4c58-bfe6-bf815c75096f" extendedConfigurationObject="5040b3e6-4107-41b5-851a-8c7996925ec2">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+  </dimensions>
+</mdclass:CalculationRegister>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f48e1229-3f5b-477e-bbe0-ec44d7a552c9" extendedConfigurationObject="d7618923-a1ec-4a06-b44f-02c7f7bd46b6">
+  <producedTypes>
+    <objectType typeId="deaee897-7475-4e43-81d8-7608a435c4d9" valueTypeId="ea1a7a21-9335-4f72-81c9-0d427921ad5f"/>
+    <refType typeId="31fe4940-a0c0-4de8-b950-25bc4ccf9487" valueTypeId="5ea1218d-1390-4be2-8a2c-cd489070da36"/>
+    <selectionType typeId="23228966-0b27-49b3-a07f-12e3188cf7e9" valueTypeId="7cd19799-ef7e-4131-8340-bd01bce09ed0"/>
+    <listType typeId="218c48a3-2bc2-4e2b-b25e-0bc7e9525dad" valueTypeId="1d2490fb-2974-4706-92e0-f016027a9149"/>
+    <managerType typeId="5aa611ee-74f2-4394-9d01-accc285434f6" valueTypeId="36eedc0c-6ffb-461b-894a-8460fdf7fcf8"/>
+  </producedTypes>
+  <name>ВедомостьНаВыплатуЗарплатыВБанк</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="7f9d75e4-dae2-40f2-b0ad-ecb5e9ad331f" extendedConfigurationObject="36ecab94-ef4d-486a-beb3-ed1f7d061dfe">
+    <name>ЗарплатныйПроект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ЗарплатныеПроекты</types>
+    </type>
+  </attributes>
+  <tabularSections uuid="beeaff0d-06b3-4159-a793-2b299d481e50" extendedConfigurationObject="7edc8670-0d8b-4e8d-a0d5-81a1eb17a759">
+    <producedTypes>
+      <objectType typeId="d1ff94c9-2552-4a87-a320-06ef162e6d0e" valueTypeId="b276ca30-7c3e-428b-8cab-00dcc4bf3343"/>
+      <rowType typeId="8bd15969-e325-491b-b2e9-1d9d617a657f" valueTypeId="a4436f81-2993-46e5-98d0-135750d05302"/>
+    </producedTypes>
+    <name>Зарплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="fbbe9f91-5ba9-4369-adb8-b1bea2f7cd9e" extendedConfigurationObject="a2d8bcd6-ff35-49e0-9b07-0ac341c69e0d">
+      <name>Сотрудник</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+    </attributes>
+    <attributes uuid="7f3be9cd-5b3e-40ef-bdd3-a970d4a9deca" extendedConfigurationObject="f9b64d4a-35b2-4d4f-ab69-e7a35125bf2b">
+      <name>КВыплате</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

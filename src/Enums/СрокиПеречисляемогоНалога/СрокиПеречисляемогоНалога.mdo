@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e38527b6-0d08-45c9-943d-b9317d9c00fd" extendedConfigurationObject="fbf3c7e7-1d38-4bb0-b4c1-dcfe614ea9bd">
+  <producedTypes>
+    <refType typeId="494aab2a-cf26-41dd-afbb-ad61412b63fb" valueTypeId="178e0ff4-020e-4d7b-8a27-7989f4bf2189"/>
+    <listType typeId="85eeaf98-892d-43bb-909b-e6156b70ac77" valueTypeId="bdd8e74c-4f50-4dca-8ed9-34c4cba667b6"/>
+    <managerType typeId="2f4ae7bf-4df2-4590-b35d-4213198018b6" valueTypeId="74935f3d-761d-4a7b-b545-b12b4a39ef31"/>
+  </producedTypes>
+  <name>СрокиПеречисляемогоНалога</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="bfc033e2-979e-488e-a19a-9d95880c0bcd" extendedConfigurationObject="97730b17-9cbe-4bdc-812f-0448e24eccf4">
+    <name>МежрасчетныеОтпускаИБольничные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1c1550b5-60c2-4f65-a07e-583d6f3a59fc" extendedConfigurationObject="315a6052-e223-4fab-b808-4afcf50eae08">
+    <name>ПрочиеДоходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

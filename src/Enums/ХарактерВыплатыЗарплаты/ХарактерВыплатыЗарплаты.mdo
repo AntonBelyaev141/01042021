@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a15fbf31-a15c-405b-a27e-5f8ba6f2df08" extendedConfigurationObject="fefca275-ded6-4f1a-b4cb-05f7d831f25d">
+  <producedTypes>
+    <refType typeId="df227477-2930-4c53-866a-7f1a0412fcfa" valueTypeId="cb47abbe-2794-42f4-a773-d0a971bcfeed"/>
+    <listType typeId="f4bdd586-37c9-43f7-b596-eec0bbeda7b5" valueTypeId="ac9c3696-cf6c-4868-890f-e52967aad08c"/>
+    <managerType typeId="79918196-e99f-457a-8963-c8dfb4ac40b9" valueTypeId="d78f43d0-ab8f-4106-b6bb-d54baefd3097"/>
+  </producedTypes>
+  <name>ХарактерВыплатыЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="1c632ce8-03bb-4dec-84c5-687b3a9ff2e8" extendedConfigurationObject="f036668b-4239-46cc-8cea-26a3252a7891">
+    <name>Зарплата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

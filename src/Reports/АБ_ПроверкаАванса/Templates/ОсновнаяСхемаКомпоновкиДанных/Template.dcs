@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НачисленоСумма</dataPath>
+			<field>НачисленоСумма</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начислено сумма</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыплаченоСумма</dataPath>
+			<field>ВыплаченоСумма</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выплачено сумма</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Разность</dataPath>
+			<field>Разность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	НачисленияУдержанияПоСотрудникамАвансом.Сотрудник КАК Сотрудник,
+	СУММА(ВЫБОР
+			КОГДА НачисленияУдержанияПоСотрудникамАвансом.ГруппаНачисленияУдержанияВыплаты = ЗНАЧЕНИЕ(Перечисление.ГруппыНачисленияУдержанияВыплаты.Начислено)
+				ТОГДА НачисленияУдержанияПоСотрудникамАвансом.Сумма
+			ИНАЧЕ -1 * НачисленияУдержанияПоСотрудникамАвансом.Сумма
+		КОНЕЦ) КАК Сумма
+ПОМЕСТИТЬ ВременнаяТаблица_Аванс
+ИЗ
+	РегистрНакопления.НачисленияУдержанияПоСотрудникамАвансом КАК НачисленияУдержанияПоСотрудникамАвансом
+ГДЕ
+	НачисленияУдержанияПоСотрудникамАвансом.Регистратор = &amp;Регистратор
+
+СГРУППИРОВАТЬ ПО
+	НачисленияУдержанияПоСотрудникамАвансом.Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВедомостьНаВыплатуЗарплатыВБанкЗарплата.Сотрудник КАК Сотрудник,
+	СУММА(ВедомостьНаВыплатуЗарплатыВБанкЗарплата.КВыплате) КАК КВыплате
+ПОМЕСТИТЬ ВременнаяТаблица_Выплаты
+ИЗ
+	Документ.ВедомостьНаВыплатуЗарплатыВБанк.Зарплата КАК ВедомостьНаВыплатуЗарплатыВБанкЗарплата
+ГДЕ
+	ВедомостьНаВыплатуЗарплатыВБанкЗарплата.Ссылка = &amp;Ссылка1
+
+СГРУППИРОВАТЬ ПО
+	ВедомостьНаВыплатуЗарплатыВБанкЗарплата.Сотрудник
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВедомостьНаВыплатуЗарплатыВКассуЗарплата.Сотрудник,
+	СУММА(ВедомостьНаВыплатуЗарплатыВКассуЗарплата.КВыплате)
+ИЗ
+	Документ.ВедомостьНаВыплатуЗарплатыВКассу.Зарплата КАК ВедомостьНаВыплатуЗарплатыВКассуЗарплата
+ГДЕ
+	ВедомостьНаВыплатуЗарплатыВКассуЗарплата.Ссылка = &amp;Ссылка2
+
+СГРУППИРОВАТЬ ПО
+	ВедомостьНаВыплатуЗарплатыВКассуЗарплата.Сотрудник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(ВременнаяТаблица_Аванс.Сотрудник, ВременнаяТаблица_Выплаты.Сотрудник) КАК Сотрудник,
+	СУММА(ЕСТЬNULL(ВременнаяТаблица_Аванс.Сумма, 0)) КАК НачисленоСумма,
+	СУММА(ЕСТЬNULL(ВременнаяТаблица_Выплаты.КВыплате, 0)) КАК ВыплаченоСумма,
+	СУММА(ЕСТЬNULL(ВременнаяТаблица_Аванс.Сумма, 0) - ЕСТЬNULL(ВременнаяТаблица_Выплаты.КВыплате, 0)) КАК Разность
+ИЗ
+	ВременнаяТаблица_Аванс КАК ВременнаяТаблица_Аванс
+		ПОЛНОЕ СОЕДИНЕНИЕ ВременнаяТаблица_Выплаты КАК ВременнаяТаблица_Выплаты
+		ПО ВременнаяТаблица_Аванс.Сотрудник = ВременнаяТаблица_Выплаты.Сотрудник
+
+СГРУППИРОВАТЬ ПО
+	ЕСТЬNULL(ВременнаяТаблица_Аванс.Сотрудник, ВременнаяТаблица_Выплаты.Сотрудник)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>НачисленоСумма</dataPath>
+		<expression>Сумма(НачисленоСумма)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВыплаченоСумма</dataPath>
+		<expression>Сумма(ВыплаченоСумма)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Разность</dataPath>
+		<expression>Сумма(Разность)</expression>
+	</totalField>
+	<parameter>
+		<name>Регистратор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Регистратор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.Премия</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.Отпуск</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.БольничныйЛист</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПереносДанных</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.РазовоеНачисление</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.НачислениеЗарплаты</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.НачислениеЗаПервуюПоловинуМесяца</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Ссылка1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ссылка1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Ссылка2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ссылка2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НачисленоСумма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыплаченоСумма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Разность</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Регистратор</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>9e2d80fa-6a5e-4d34-b455-17b8363529d3</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Ссылка1</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>626913f7-37d5-41e3-a931-6dd90c78ac3b</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Ссылка2</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>c0c959a3-9fdb-4964-b26c-cac20333a0b5</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Сотрудник</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

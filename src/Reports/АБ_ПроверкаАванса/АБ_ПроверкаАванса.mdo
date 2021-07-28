@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6333453-986c-4290-8518-4ffc9a031fb9">
+  <producedTypes>
+    <objectType typeId="56a9ac9c-a27c-4421-a106-160bfc31040f" valueTypeId="1017fa2f-89b9-4b9c-a068-ce2828d73d3c"/>
+    <managerType typeId="aa724b26-5acb-405b-864a-7939e47669bc" valueTypeId="e6cb07a5-b440-4933-88e5-09bae97a4e4d"/>
+  </producedTypes>
+  <name>АБ_ПроверкаАванса</name>
+  <synonym>
+    <key>ru</key>
+    <value>АБ_Проверка аванса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АБ_ПроверкаАванса.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1d0817fa-cf54-41c8-a0d5-2bdac817afe4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

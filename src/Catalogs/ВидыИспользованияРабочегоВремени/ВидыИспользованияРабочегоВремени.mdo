@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a2d9c61b-fdb2-474b-88eb-884eb5363b3a" extendedConfigurationObject="f1ae8166-42dc-403e-ade4-33ff8c5ffa11">
+  <producedTypes>
+    <objectType typeId="5ab48c7c-43ba-4ec2-98e1-83b7adb20503" valueTypeId="475369e2-85b3-4fde-8ca3-7388c351c96f"/>
+    <refType typeId="a7791278-5ab2-4ed8-a7fa-f2a84d80f37d" valueTypeId="af08a47d-0145-4d42-a636-9b454f253a80"/>
+    <selectionType typeId="60b48f8d-a666-4c24-960e-9aa7e77f4867" valueTypeId="f8d76bf3-f1ee-413c-b971-4c4b7f8b32f4"/>
+    <listType typeId="462afedf-131f-4498-a8d0-94cc71097d76" valueTypeId="15852937-c340-4829-a53d-acb98ca1a5be"/>
+    <managerType typeId="96ee0e86-f3fa-400f-be31-c0e1f04ddc4c" valueTypeId="62f6891c-6c07-48e2-8948-768b77dce6ce"/>
+  </producedTypes>
+  <name>ВидыИспользованияРабочегоВремени</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <descriptionLength>50</descriptionLength>
+  <predefined>
+    <items id="f0c4f0aa-bcf0-494d-8693-086778dd9a46">
+      <name>Явка</name>
+      <description>Явка</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+    <items id="f7c9e5f5-c885-472d-8b70-64c04f948f70">
+      <name>РаботаНочныеЧасы</name>
+      <description>Работа ночные часы</description>
+      <code xsi:type="core:NumberValue">
+        <value>0</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

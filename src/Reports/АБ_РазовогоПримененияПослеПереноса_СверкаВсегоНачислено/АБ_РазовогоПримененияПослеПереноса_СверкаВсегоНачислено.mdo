@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc2cabae-0f75-4603-9f42-72db35417f53">
+  <producedTypes>
+    <objectType typeId="08bb0096-c87c-4cef-b4d8-2217f4f6b9cc" valueTypeId="a67f7a19-b4ea-4e62-bb7a-ce4a821ac387"/>
+    <managerType typeId="aff0d9c8-9ac1-4c15-a7c4-6d44234df185" valueTypeId="09cba3cc-ea3e-48ba-a650-12e604e818a8"/>
+  </producedTypes>
+  <name>АБ_РазовогоПримененияПослеПереноса_СверкаВсегоНачислено</name>
+  <synonym>
+    <key>ru</key>
+    <value>АБ_РазовогоПримененияПослеПереноса_СверкаВсегоНачислено</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АБ_РазовогоПримененияПослеПереноса_СверкаВсегоНачислено.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АБ_РазовогоПримененияПослеПереноса_СверкаВсегоНачислено.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="05e510b6-c6e5-4139-aac5-e58cfa743a06">
+    <name>АдресФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f1b1053-fb10-4cb4-a8c2-0b1fd29ad15f">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="70efca03-bf20-4713-80f3-93e285bf6b76">
+    <name>ВидРасчета1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета1</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b74f40c-4e31-45a1-922c-ab9a512c2ea5">
+    <name>ВидРасчета2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета2</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="036c7bb9-cdce-4d93-b25c-85642f1d9c14">
+    <name>НомерНачальнойСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер начальной строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="20685443-f527-4b4c-96fd-f58645c17f7e">
+    <name>НомерСравниваемойКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сравниваемой колонки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="597c9e1a-4ada-4f11-8d9d-51b9e5c68781">
+    <name>НомерСравниваемойКолонкиЕще</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер сравниваемой колонки еще</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f1e087c7-a6ae-4c66-ac97-27408d37de1c">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="27dd490a-66e9-441b-b20b-ffc93c2698de">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

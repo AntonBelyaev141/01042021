@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d3d6c06-600e-4817-a713-37b1b95af12b" extendedConfigurationObject="286fdf7e-020c-4d86-babb-3d52a1f1be66">
+  <producedTypes>
+    <objectType typeId="bc662dab-88c4-4ae7-b423-6de980ce4811" valueTypeId="f4d7aa8b-70ec-4824-9bcb-1a594d5a6033"/>
+    <refType typeId="d0fdf821-73d5-4608-aafc-b6101db349d0" valueTypeId="fbc81e74-3f6f-4d99-970d-6f1008ac8e3b"/>
+    <selectionType typeId="49bd34a9-82c5-4373-8853-4c725302763f" valueTypeId="caf92d17-0955-4f9d-84b7-18367b6c6b57"/>
+    <listType typeId="df2d44c4-c8ad-40c0-8b0c-5018537c75a7" valueTypeId="43892372-570a-41d9-9d64-d0990dbe6ad9"/>
+    <managerType typeId="073a877f-cca6-4cf2-b57a-83d170e0b4e0" valueTypeId="661dde46-5cb8-4541-92cd-9c84401b1896"/>
+  </producedTypes>
+  <name>НачислениеЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="06a0dece-3ab6-4461-b422-a8bc9cc45fcf">
+    <name>АБ_ИспользоватьНеТиповойРасчетНочных</name>
+    <synonym>
+      <key>ru</key>
+      <value>АБ_Использовать нетиповой расчет ночных</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7fbad55-0644-4323-a294-e4cbac720545">
+    <name>АБ_ИспользоватьНеТиповойРасчетПраздничных</name>
+    <synonym>
+      <key>ru</key>
+      <value>АБ_ИспользоватьНеТиповойРасчетПраздничных</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0e20d5bb-62c8-4bf5-b8d7-02c8620f6cdf" extendedConfigurationObject="09ac76d6-eb9a-49e8-9cf2-3fcfb66205d5">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

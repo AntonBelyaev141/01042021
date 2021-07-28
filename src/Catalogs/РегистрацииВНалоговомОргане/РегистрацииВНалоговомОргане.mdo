@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8e2e4650-e40e-4c91-8c51-0f0c9b0175af" extendedConfigurationObject="0169b236-52cf-4e6a-966e-2e180783b83b">
+  <producedTypes>
+    <objectType typeId="deaaa13b-f36a-46af-be73-30428c1fa7a4" valueTypeId="b4abc9d9-f2bc-4663-9814-6cb43c1f0a75"/>
+    <refType typeId="20a8b15e-de7e-4235-a4c3-d7959286f3b8" valueTypeId="e3f63cae-25d0-4cae-8505-92cafc40dc12"/>
+    <selectionType typeId="bf9ef9c1-c6b2-419e-90d9-4cb4095457f5" valueTypeId="ecb1a674-9a49-48e0-8058-f9463cbc7b68"/>
+    <listType typeId="a665316a-6760-480b-986f-818bf2c7ff2c" valueTypeId="9f772a7c-ae63-4918-882d-643518fea06f"/>
+    <managerType typeId="bdfa8049-a98a-4faa-9f35-6a0e4c9da5d5" valueTypeId="6cbac6f8-9eb8-4265-8a63-e266bbe5d2cc"/>
+  </producedTypes>
+  <name>РегистрацииВНалоговомОргане</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

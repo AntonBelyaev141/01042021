@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f256e0e9-4eff-4b80-acd4-791f837293ab">
+  <producedTypes>
+    <objectType typeId="d2f8faea-1c24-4fed-bc8f-c850aabe3e68" valueTypeId="ee055e75-5ba2-4217-b037-ae355aa3a8aa"/>
+    <managerType typeId="4d0ec1dc-67b7-4d4a-8640-1a71526a25e6" valueTypeId="08d8e6df-3fc8-4b89-b436-4492b00df59d"/>
+  </producedTypes>
+  <name>АБ_РазовогоПримененияВоВремяПереноса_ЗагрузкаКвартальнойПремии</name>
+  <synonym>
+    <key>ru</key>
+    <value>АБ_РазовогоПримененияВоВремяПереноса_ЗагрузкаКвартальнойПремии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АБ_РазовогоПримененияВоВремяПереноса_ЗагрузкаКвартальнойПремии.Form.Форма</defaultForm>
+  <attributes uuid="dfaa08a5-7bed-4462-976a-119857517dd5">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83f95ba2-726a-45d5-a272-4f6f354fa64c">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10773d7e-e393-4288-ba98-fe8c04727ee0">
+    <name>ДокументПремия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ премия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Премия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9989cfd8-2905-497a-b581-aeacf7e01c8b">
+    <name>ПоказательРасчетнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель расчетная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиРасчетаЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3551fa18-c372-4434-8610-138bcf012a13">
+    <name>ПоказательПроцентКвартальнойПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель процент квартальной премии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиРасчетаЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1a243cab-142d-4c40-81ae-85645d555543">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

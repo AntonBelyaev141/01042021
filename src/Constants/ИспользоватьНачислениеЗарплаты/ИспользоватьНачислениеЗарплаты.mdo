@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="61b02ab3-88c5-4fba-b4f9-4606aa61b432" extendedConfigurationObject="73094e4f-c91e-4c8a-b697-408beb051352">
+  <producedTypes>
+    <managerType typeId="c94857c9-7208-48e9-9ac8-f95dc61bc66b" valueTypeId="2e60add9-3391-4958-af5d-5d4c5e587e81"/>
+    <valueManagerType typeId="017794c2-af8b-4887-bafd-7cedde188259" valueTypeId="62ebe943-4a57-4189-97d9-41885358614a"/>
+    <valueKeyType typeId="56960ee7-f389-4aa9-8d60-6853b5bef674" valueTypeId="6a24641d-541a-41ce-a655-9f2b4e84b6e8"/>
+  </producedTypes>
+  <name>ИспользоватьНачислениеЗарплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:Constant>
