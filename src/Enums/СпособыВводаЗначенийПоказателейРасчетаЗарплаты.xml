@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="591cac63-7898-4ea5-9d62-992ea200af4a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВводаЗначенийПоказателейРасчетаЗарплаты" category="Ref">
+				<xr:TypeId>6cf38c17-aab2-4af4-b1e2-63527cec8656</xr:TypeId>
+				<xr:ValueId>7bfcb98c-cf75-4277-9077-10e962390f6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВводаЗначенийПоказателейРасчетаЗарплаты" category="Manager">
+				<xr:TypeId>bd4162cf-9cae-4ebd-a381-cee0846a4b36</xr:TypeId>
+				<xr:ValueId>9d23d729-fc56-42cc-9dac-dfbb556885db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВводаЗначенийПоказателейРасчетаЗарплаты" category="List">
+				<xr:TypeId>d72a7d85-2fe7-410d-a014-bcd59ee208e2</xr:TypeId>
+				<xr:ValueId>d83258b6-8c40-400b-99ad-fc1eb17fc087</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыВводаЗначенийПоказателейРасчетаЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f26bf3f6-aeb9-44b3-b33c-4f3eae212d4a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="50635c88-fc3e-4196-aeb0-1731c24d02ee">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ВводитсяЕдиновременно</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9e4e3452-aea2-4b88-a3d9-b883e4b54a3c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7a94089a-c694-47f4-9d0c-e05c3a600d1c">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>НакапливаетсяПоОтдельнымЗначениям</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6a208a23-2757-458c-b051-8494ebda2cb6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c75e21c3-64a3-4ba3-a3dd-42e9fbc4a599">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ВводитсяПриРасчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b6ed2e42-58c3-4001-a683-73ec6650bc9f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

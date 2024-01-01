@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="a922aefc-8566-4eec-9a13-cd611f4533ea">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.РасчетыНалогоплательщиковСБюджетомПоНДФЛ" category="Record">
+				<xr:TypeId>1b6320ca-f2d0-43ff-8c40-01ebdb080f09</xr:TypeId>
+				<xr:ValueId>86cda1f3-f8ee-424f-b110-7b38ac0549c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.РасчетыНалогоплательщиковСБюджетомПоНДФЛ" category="Manager">
+				<xr:TypeId>ee228add-91a3-4362-8465-ac4e7dc12195</xr:TypeId>
+				<xr:ValueId>50be9128-92e3-435a-a39d-dd40c9022e62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.РасчетыНалогоплательщиковСБюджетомПоНДФЛ" category="Selection">
+				<xr:TypeId>ca91a007-97a1-4448-a30f-2cd8acba2f99</xr:TypeId>
+				<xr:ValueId>a4e0ed73-049e-44bd-9edc-1122fba59c27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.РасчетыНалогоплательщиковСБюджетомПоНДФЛ" category="List">
+				<xr:TypeId>aaf44644-428c-4b14-88c8-2dc08d54fbcf</xr:TypeId>
+				<xr:ValueId>54a78c7e-318a-4505-acf2-c760a116a5be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.РасчетыНалогоплательщиковСБюджетомПоНДФЛ" category="RecordSet">
+				<xr:TypeId>11382ea5-e406-432b-9705-ae59488b5ea5</xr:TypeId>
+				<xr:ValueId>50000386-77b9-4180-9953-f4c7bcec8ba3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.РасчетыНалогоплательщиковСБюджетомПоНДФЛ" category="RecordKey">
+				<xr:TypeId>828f8a09-fa8b-41f4-8876-27c471eb0bc3</xr:TypeId>
+				<xr:ValueId>1a7078ab-a3dc-4e09-866c-ed88ed8e25ec</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РасчетыНалогоплательщиковСБюджетомПоНДФЛ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0cead18e-318e-496f-b798-cb85b9956853</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

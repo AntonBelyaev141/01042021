@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="f14d1cf2-8b03-4cb5-9a3e-9f0569183ed9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОсобыхНачисленийИУдержаний" category="Ref">
+				<xr:TypeId>4a0cb04e-e2cf-4bc4-bd27-b4e41fd276e9</xr:TypeId>
+				<xr:ValueId>f493e022-8116-4159-b90c-ce4f9095d1ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОсобыхНачисленийИУдержаний" category="Manager">
+				<xr:TypeId>bd6a0334-1bdd-4a11-818c-60f14d24c236</xr:TypeId>
+				<xr:ValueId>1ca5a0d9-c86f-4db7-91a0-d2aa287b20c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОсобыхНачисленийИУдержаний" category="List">
+				<xr:TypeId>f03f4bba-8160-47f1-bc3e-720ac84b7603</xr:TypeId>
+				<xr:ValueId>8a995e40-4776-4a0e-a4fc-1717c6c3f294</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОсобыхНачисленийИУдержаний</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>5955eb57-3433-4811-beac-9b5758274aa4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c9ff3c72-a935-41e7-a698-f7476628d532">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>НДФЛ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d81b1c0a-ecb8-4e8d-982c-6032ed88557c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

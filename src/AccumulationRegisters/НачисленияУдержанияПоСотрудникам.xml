@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="21b6e592-00ca-487d-9e77-43c7a4178919">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.НачисленияУдержанияПоСотрудникам" category="Record">
+				<xr:TypeId>da89ad86-f615-4c71-8582-f0750f0b5354</xr:TypeId>
+				<xr:ValueId>68e5ae1d-1f60-4427-99fc-bf65d76ec43f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.НачисленияУдержанияПоСотрудникам" category="Manager">
+				<xr:TypeId>db78928a-93a8-445b-9555-3a8827aa1c8e</xr:TypeId>
+				<xr:ValueId>371aa653-413c-482d-a148-21a4f19a81e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.НачисленияУдержанияПоСотрудникам" category="Selection">
+				<xr:TypeId>12030d2e-90a1-4423-ab4a-58b2aefe4659</xr:TypeId>
+				<xr:ValueId>9f68138a-3761-4739-86d0-d336b21cb501</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.НачисленияУдержанияПоСотрудникам" category="List">
+				<xr:TypeId>e2d9b50d-2207-4820-8382-22e165986cf6</xr:TypeId>
+				<xr:ValueId>5b42df7e-b364-42c8-ba3c-60b6f1472e1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.НачисленияУдержанияПоСотрудникам" category="RecordSet">
+				<xr:TypeId>d6aae94d-8a32-4506-a19c-c49a25159102</xr:TypeId>
+				<xr:ValueId>5ae5113d-aa94-430f-aeeb-176f5a229a09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.НачисленияУдержанияПоСотрудникам" category="RecordKey">
+				<xr:TypeId>ffef416b-8233-489d-96dd-a883b0131e53</xr:TypeId>
+				<xr:ValueId>10852356-bc2c-45b6-9be5-65267630d168</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачисленияУдержанияПоСотрудникам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>3255479a-7a6e-4c99-98b5-70a9215f9a24</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="6bfe5244-f49d-4506-b460-2bdc7e0eb67f">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a349d6bf-291a-47bf-a866-641daa7f0357</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="eefd29e6-5dbb-4b8c-acd8-5d0548696cd6">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ГруппаНачисленияУдержанияВыплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>f01cb514-3f19-4975-9414-1bb3a37a27e0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГруппыНачисленияУдержанияВыплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="5b450d70-9c4f-4ce7-be9e-8d388bb8435a">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ebabd84b-6e8e-4e4a-807f-9cd364e22c96</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="f2a0fe15-15e5-4e41-995b-afa603e3e407">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>НачислениеУдержание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>70bbbb1d-18bb-46a0-b41e-5cc6f71f1731</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

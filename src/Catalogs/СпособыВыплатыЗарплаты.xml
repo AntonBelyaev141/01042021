@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="8fe0f2b9-ba23-4e65-af17-a9e68dfcf989">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыВыплатыЗарплаты" category="Object">
+				<xr:TypeId>d4081d51-0c79-4fc9-8e03-8274f8f12891</xr:TypeId>
+				<xr:ValueId>6a7a73fa-15fb-436b-8b57-577ff518ac7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыВыплатыЗарплаты" category="Ref">
+				<xr:TypeId>d6fda013-cdce-4e22-89e2-dcbd53c3d275</xr:TypeId>
+				<xr:ValueId>8f4c5d74-31e3-4b31-af2f-d9f9e2a2afe4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыВыплатыЗарплаты" category="Selection">
+				<xr:TypeId>6005ed2b-d2c7-4ff4-a7ec-a9a5892af37c</xr:TypeId>
+				<xr:ValueId>6dc83db4-c115-4d63-970a-2fb7d0b8377c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыВыплатыЗарплаты" category="List">
+				<xr:TypeId>68c518ed-1395-4489-9799-4798c466c401</xr:TypeId>
+				<xr:ValueId>0b003c78-fd1c-4c63-8840-de97fab2b648</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыВыплатыЗарплаты" category="Manager">
+				<xr:TypeId>af6ca678-35cb-4838-9366-1dda7a439754</xr:TypeId>
+				<xr:ValueId>0c353e0b-5875-4d8b-81be-3092a7bb5ce4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>CodeLength</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>DescriptionLength</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>CodeType</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыВыплатыЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ed794426-4209-4a2e-818a-4428d0617e39</ExtendedConfigurationObject>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="77be839f-8379-4031-a000-e18603e6df0c">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Поставляемый</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2baf2917-68b2-4653-abce-11200d21dcd3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8f8d4795-6b7a-4ccf-849f-9ab4b3af2e23">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ХарактерВыплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>69e78492-55ea-4389-b3fa-af9fc561f791</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХарактерВыплатыЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9256f010-c888-4941-9bfa-0527b722bf5f">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>СпособПолучения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2af958fb-1e0e-4c93-9b53-18c13343c305</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыПолученияЗарплатыКВыплате</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f563cb62-dd84-48b5-86f0-37d712ee089a">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ВидДокументаОснования</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>54003705-e101-45fa-8134-3ff19eff8e1f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДокументовОснованийВедомостейНаВыплатуЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8fd35c0-66b7-430f-9d3f-a1ed6c466d1d">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ГруппаВидовДоговоров</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ee368f3d-4fcf-45c9-bfc1-f1297081d7ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГруппыВидовДоговоровССотрудникамиДляВыплатыЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4dc25dc4-00c6-4c4c-bd30-1e49c2c81ae1">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>СтатьяРасходов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>23cd1910-7854-41c4-ac44-ed3cc149717b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтатьиРасходовЗарплата</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="53a1156c-c1c4-4286-9f87-1afad7da008e">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ОкончательныйРасчетНДФЛ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b6696632-f6ef-4a73-932d-bc655660ab08</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a718843d-df99-4fdf-aeb1-0fa6e133b904">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПроцентВыплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6b8d81f6-08dd-4d76-8dc3-fcb5126feba3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="05c02552-b948-4cb7-b44a-af1edf833c37">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Округление</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>68b0eeab-e84c-4502-865a-29d0551569c5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СпособыОкругленияПриРасчетеЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

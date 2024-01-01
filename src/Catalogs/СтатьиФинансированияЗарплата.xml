@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="aa01e6b3-3d7d-453a-9bbe-652b8d67750a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиФинансированияЗарплата" category="Object">
+				<xr:TypeId>c1815960-01a4-47e8-aa01-d6ddd8a5aa50</xr:TypeId>
+				<xr:ValueId>f6b077b7-6719-4556-bec2-c55e51779cc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиФинансированияЗарплата" category="Ref">
+				<xr:TypeId>e1b097d3-1ada-4e88-934b-ce8be02dffc1</xr:TypeId>
+				<xr:ValueId>46a54af1-cd09-4448-8192-ebb17daa1d88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиФинансированияЗарплата" category="Selection">
+				<xr:TypeId>6181e517-7442-45c0-aa15-ffc10c5b205c</xr:TypeId>
+				<xr:ValueId>a142d7fe-1545-4889-b37a-aeacf5d2b786</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиФинансированияЗарплата" category="List">
+				<xr:TypeId>cc37cedd-640b-425c-8786-1a64804a6cb7</xr:TypeId>
+				<xr:ValueId>15c7cc0a-e078-446b-bd75-625d3f6e122f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиФинансированияЗарплата" category="Manager">
+				<xr:TypeId>8a9e9b74-1c59-4be1-a16d-7e7fc0587fd9</xr:TypeId>
+				<xr:ValueId>0ba4d70e-e35b-4351-bc13-876f0e6ad149</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиФинансированияЗарплата</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>83024cbe-c18b-4c72-93df-580d52d1a49f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

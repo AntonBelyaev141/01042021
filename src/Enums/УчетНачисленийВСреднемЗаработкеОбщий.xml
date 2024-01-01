@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="5d06f519-bf05-4c34-80da-e10c4686c2e2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.УчетНачисленийВСреднемЗаработкеОбщий" category="Ref">
+				<xr:TypeId>9af13e77-2e11-406e-8390-f849d1117798</xr:TypeId>
+				<xr:ValueId>225035b5-1a81-46d3-811c-b557820bd0e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.УчетНачисленийВСреднемЗаработкеОбщий" category="Manager">
+				<xr:TypeId>40dbc591-b576-49a1-9dac-223f58f92c5c</xr:TypeId>
+				<xr:ValueId>919301c0-c92a-4fa2-bb8d-f998ee513fb3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.УчетНачисленийВСреднемЗаработкеОбщий" category="List">
+				<xr:TypeId>6cacbde9-8a81-439a-b941-faa8d1b86f7d</xr:TypeId>
+				<xr:ValueId>45d21d1c-aaab-46d4-9a8f-9f2a5a7578cc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УчетНачисленийВСреднемЗаработкеОбщий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d3d97f81-69ed-4975-84ff-dbf118dfe3b4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4a8a8132-49db-4a24-850f-295269b98bd3">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ОбщийЗаработок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7eefe443-74ae-45ae-9669-37cc35f4086b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c0a06c8a-9a10-4aa8-bc6c-8050c1d1c1ce">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПремияФиксированнойСуммой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c91c9f25-8ebc-4faf-80e0-ac7823f5dadf</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b6b58c8e-dcce-44f6-a971-ed80927b169f">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПремияПроцентом</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>19920e35-75cc-4018-82c8-220bd99e3921</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9e44567d-8a1f-4c82-882d-c2d2d5a0d4a9">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПремияГодоваяФиксированнойСуммой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4615d56e-d601-42e2-8660-26c9df0620ae</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b54ff4c8-94d2-4dba-8680-2518d1583f65">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПремияГодоваяПроцентом</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>740861df-f793-4851-a4a8-a47f80bd5d35</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e2065e5f-3dc6-43ea-ac59-9e0010a23f9e">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>НеВключать</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b25373fc-49be-4525-92ec-f002a285bc20</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

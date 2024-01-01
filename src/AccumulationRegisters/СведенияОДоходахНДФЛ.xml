@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="c9c5779b-8446-419a-ab1c-6bddd0278090">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.СведенияОДоходахНДФЛ" category="Record">
+				<xr:TypeId>68993cc5-4f39-4e32-a6e3-c03cd23e63b1</xr:TypeId>
+				<xr:ValueId>700360cd-2965-4ad7-afa7-ed0b001491c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.СведенияОДоходахНДФЛ" category="Manager">
+				<xr:TypeId>06406db1-3809-47e1-8bd1-6a4a6cdfd7fc</xr:TypeId>
+				<xr:ValueId>97188fd7-932a-4dc5-a7c5-1cf961410dbf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.СведенияОДоходахНДФЛ" category="Selection">
+				<xr:TypeId>6828b3b6-8e91-4483-a188-4b883f2c5a29</xr:TypeId>
+				<xr:ValueId>ef5210d6-9696-4548-b04c-ae4ee0834380</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.СведенияОДоходахНДФЛ" category="List">
+				<xr:TypeId>c838980f-f332-485f-9f44-dceacdeeb1f7</xr:TypeId>
+				<xr:ValueId>df449416-06bc-4b7b-8f71-14ab0890b151</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.СведенияОДоходахНДФЛ" category="RecordSet">
+				<xr:TypeId>848b7906-0209-4fd7-b5f1-66d294c4cab9</xr:TypeId>
+				<xr:ValueId>4ba7a7ad-4bec-4221-ab50-6b9ce85a910f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.СведенияОДоходахНДФЛ" category="RecordKey">
+				<xr:TypeId>3e41ceef-4267-44b8-9c9e-facccc23cb5f</xr:TypeId>
+				<xr:ValueId>a97a5cbb-2774-4d4e-aa2b-37e6125e8dc8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СведенияОДоходахНДФЛ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d3bcf9bd-8d8a-42ef-82ae-a1ac829b5e35</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

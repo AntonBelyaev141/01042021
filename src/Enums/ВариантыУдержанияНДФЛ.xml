@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="4402dbae-cb4d-4090-83f9-8bfca971327c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыУдержанияНДФЛ" category="Ref">
+				<xr:TypeId>7e36ac68-7f8b-49bc-9419-0997f62442bb</xr:TypeId>
+				<xr:ValueId>f6bf9064-5b6c-4044-8a8e-745ef87af392</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыУдержанияНДФЛ" category="Manager">
+				<xr:TypeId>7ddc7167-9f5d-4df2-9a8f-6dc6d3001c66</xr:TypeId>
+				<xr:ValueId>181ea5b4-3b06-44f2-8c7b-30791028c5f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыУдержанияНДФЛ" category="List">
+				<xr:TypeId>d4e58f82-1eca-4ad8-8d43-b3b6633f8551</xr:TypeId>
+				<xr:ValueId>561e7f18-5d36-4e33-96b8-eba751e09ec2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыУдержанияНДФЛ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>2ff3d035-ed6f-4940-b72e-98e48e7f1fd6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bb52b259-b3b4-4a58-bd95-71bde963024d">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Удержано</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1c6a0fdb-1b3d-43f3-83ab-b4805a23d2e8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2b8ea6f6-22f8-402f-b7e3-dfc011cb0e1f">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПереданоНаВзысканиеВНалоговыйОрган</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>14d1db31-222f-42f0-9d8d-6a8cc5d8dbed</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f46e029b-fb4c-40e9-a510-fd274531c867">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ВозвращеноНалоговымАгентом</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0288db55-4577-4ba7-9513-f61002d68c2c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c466fc1c-7d23-410e-b1ee-4745cd7f52db">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ЗачетАвансовыхПлатежей</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>97e9085d-6441-43eb-afbc-cb3d75e8d9be</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

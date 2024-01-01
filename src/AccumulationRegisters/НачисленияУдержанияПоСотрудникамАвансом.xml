@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="f22f294b-1f76-41c7-b113-b0cdeb1145c1">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.НачисленияУдержанияПоСотрудникамАвансом" category="Record">
+				<xr:TypeId>988e310a-21d4-41b3-98a8-d7cb57b676eb</xr:TypeId>
+				<xr:ValueId>b6cc09d0-9886-4f4e-8b6f-54925587d941</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.НачисленияУдержанияПоСотрудникамАвансом" category="Manager">
+				<xr:TypeId>85101458-7932-4ff9-88fd-10b172ac4e2e</xr:TypeId>
+				<xr:ValueId>98676a68-22fb-40fe-b796-9a8d48174143</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.НачисленияУдержанияПоСотрудникамАвансом" category="Selection">
+				<xr:TypeId>3fbe6c8b-2c5a-4e61-b55d-e06eb254a4d0</xr:TypeId>
+				<xr:ValueId>f31d24aa-4856-45c4-8929-316bdae8837c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.НачисленияУдержанияПоСотрудникамАвансом" category="List">
+				<xr:TypeId>d9d95f30-1714-4493-8820-78bf8e1bccee</xr:TypeId>
+				<xr:ValueId>f62be76d-3212-48a6-8253-7351dd4811c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.НачисленияУдержанияПоСотрудникамАвансом" category="RecordSet">
+				<xr:TypeId>522290ba-165e-4225-a53a-9f4c29f6f87e</xr:TypeId>
+				<xr:ValueId>73c619d9-d22b-45d0-b451-8f4c1983476b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.НачисленияУдержанияПоСотрудникамАвансом" category="RecordKey">
+				<xr:TypeId>d849c791-1a87-4514-a676-da91d2bd94fb</xr:TypeId>
+				<xr:ValueId>92ecb90e-6148-4893-a410-f2b621b7be27</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачисленияУдержанияПоСотрудникамАвансом</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d9c6e4c6-c3ba-438a-ab27-78ba6fbc1b7f</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="21576fcb-2370-4986-8cac-e17b1f6841f5">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Сумма</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a40123aa-d591-4274-8109-17b90532a353</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="2b4a448b-a7f3-4343-9173-320945302e46">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ГруппаНачисленияУдержанияВыплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>cecb8f5e-2feb-4996-82f0-b7fda4f65d9c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГруппыНачисленияУдержанияВыплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="d6cea624-701a-4db5-910f-3c586ec9560a">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ba2542fb-554f-45c8-a123-22efab474e5d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

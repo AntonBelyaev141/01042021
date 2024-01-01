@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="3406a2d5-0b8a-4cd6-9193-61d08ce74d7e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СпособыОкругленияПриРасчетеЗарплаты" category="Object">
+				<xr:TypeId>1bdc3c97-dad5-45ff-931f-818e5b3d6f76</xr:TypeId>
+				<xr:ValueId>ab4c5bf5-1b04-4b34-aecd-b331e72cb622</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СпособыОкругленияПриРасчетеЗарплаты" category="Ref">
+				<xr:TypeId>1639fc21-83a7-439c-8393-2b7e57146c46</xr:TypeId>
+				<xr:ValueId>7e043fb7-6e28-4ae9-8069-6f267d004559</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СпособыОкругленияПриРасчетеЗарплаты" category="Selection">
+				<xr:TypeId>5e17d9fd-b1dd-4ae7-afd2-b821f4eff77b</xr:TypeId>
+				<xr:ValueId>f44fad9a-d2af-4305-bd21-43deba4d1dc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СпособыОкругленияПриРасчетеЗарплаты" category="List">
+				<xr:TypeId>8ac2cc83-14b2-49f2-acaf-4582c5264b37</xr:TypeId>
+				<xr:ValueId>60adb82a-77ec-4177-a686-855b18550d18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СпособыОкругленияПриРасчетеЗарплаты" category="Manager">
+				<xr:TypeId>7669ec4e-e712-427b-bfd9-b4d7ed7e2d78</xr:TypeId>
+				<xr:ValueId>3ee3c3fc-0228-4738-84d4-c281a60e39d7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыОкругленияПриРасчетеЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d9aba78c-b369-4896-865a-14754fbcbb20</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

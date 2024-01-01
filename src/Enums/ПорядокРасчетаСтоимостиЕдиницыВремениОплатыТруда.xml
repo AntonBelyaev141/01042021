@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="4f683b96-a4c5-41c8-8266-306c55c8bf60">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" category="Ref">
+				<xr:TypeId>d0100b4d-06cc-40d3-9e84-8df547219c63</xr:TypeId>
+				<xr:ValueId>d85fbaa9-1291-4a13-bee1-0236298822bf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" category="Manager">
+				<xr:TypeId>6823f4bf-7911-44c2-aea5-3b1f2688be3e</xr:TypeId>
+				<xr:ValueId>e42f35aa-717a-4528-8312-bcce25136693</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда" category="List">
+				<xr:TypeId>eaffe28e-6b10-44ba-b8b2-6f81009f9e86</xr:TypeId>
+				<xr:ValueId>300f4b4a-4b39-46c1-aded-04d59cf90310</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>026cd14d-3893-446e-bd65-a3b997178403</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="13a2c65d-f51a-4b83-8286-babca2c1b50d">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПоНормеВремениГрафикаСотрудника</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a2fa2425-cc0d-4c44-98d4-c23cf6c0b60a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="652fe6c1-27c3-4afc-8c32-bb3a65bf0dca">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПоНормеВремениПроизводственногоКалендаря</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>36695fb0-2abd-4830-a43a-3ff6134bda9e</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9ce0dae3-a0c0-4b46-bb18-3c72cfc808fe">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПоСреднегодовомуЗначению</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3c0c597d-bf0a-43a9-bedc-31855d3028a0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

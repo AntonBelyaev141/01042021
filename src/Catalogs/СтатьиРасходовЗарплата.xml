@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Catalog uuid="0570112e-149c-4701-9477-bb453c8d347e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиРасходовЗарплата" category="Object">
+				<xr:TypeId>40af0777-2722-4cb6-8236-eabb09a1909e</xr:TypeId>
+				<xr:ValueId>741c9a7b-9dcf-4960-ad99-3152b3d97947</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиРасходовЗарплата" category="Ref">
+				<xr:TypeId>5bfd223c-5487-4e81-8bbe-cbac34284494</xr:TypeId>
+				<xr:ValueId>8f2906fd-4788-4f8f-a8c8-06fbbc349d82</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиРасходовЗарплата" category="Selection">
+				<xr:TypeId>c1655764-dd1e-42ca-a8a5-861ca2528f43</xr:TypeId>
+				<xr:ValueId>cc83aba4-d460-49f9-b905-ee7b23b65c63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиРасходовЗарплата" category="List">
+				<xr:TypeId>4e5dc5b3-33e7-4edd-9824-22f0683e1cb9</xr:TypeId>
+				<xr:ValueId>ec360d4b-c24e-4605-bdaf-e061ae055e04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиРасходовЗарплата" category="Manager">
+				<xr:TypeId>5159ad3e-f0dd-413d-93a6-4d4a0c53d889</xr:TypeId>
+				<xr:ValueId>edbc7523-2888-4757-8ed4-61e8ecf9ff43</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиРасходовЗарплата</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d9e30baf-cdc7-4617-bd3f-3ba73a476d7e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="346fd405-7352-45f2-9990-6c40bd2830a3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОсобенностиИсчисленияНДФЛ" category="Ref">
+				<xr:TypeId>b889e224-59f0-4ba0-b06a-a9a94d4bbb73</xr:TypeId>
+				<xr:ValueId>121fa129-d568-40da-b258-785318847b8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОсобенностиИсчисленияНДФЛ" category="Manager">
+				<xr:TypeId>cd7a4298-7bc1-42f4-9925-c9f4d28d654c</xr:TypeId>
+				<xr:ValueId>34af7498-3c8f-49a3-86e3-3eb626997f6a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОсобенностиИсчисленияНДФЛ" category="List">
+				<xr:TypeId>f49d70ea-53fa-4af5-b7cb-63737fae2fd5</xr:TypeId>
+				<xr:ValueId>f06f817b-f4f5-469d-8c20-7c5db007cbc6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОсобенностиИсчисленияНДФЛ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>bf866680-48c5-47de-a304-711270e26935</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e2d9aa89-2bcd-4387-8f72-f35be8589ce8">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>СтандартныеВычетыНарастающимИтогом</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>72c7c35c-6865-4c6c-8fb1-32f1267ce453</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="02e35f96-3a9e-4fdc-be23-5b2dabf9a001">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>СтандартныеВычетыВПределахМесячногоДохода</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6dffc0ae-e091-4d49-80b9-80a9d451a493</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

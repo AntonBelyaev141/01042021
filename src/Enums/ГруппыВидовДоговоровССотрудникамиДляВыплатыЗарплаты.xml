@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="ba3a376a-cbcb-4b8c-8ab1-ab48af7d315d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ГруппыВидовДоговоровССотрудникамиДляВыплатыЗарплаты" category="Ref">
+				<xr:TypeId>faef3ef8-324d-4305-aa25-806f5e4c7fc5</xr:TypeId>
+				<xr:ValueId>df29ea63-2c84-4e09-b09e-0740a084226c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ГруппыВидовДоговоровССотрудникамиДляВыплатыЗарплаты" category="Manager">
+				<xr:TypeId>7fa1b039-d67e-4501-a3a2-5c33203cc69c</xr:TypeId>
+				<xr:ValueId>c4b18184-47b1-40b1-bf77-ecbfbf4c7977</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ГруппыВидовДоговоровССотрудникамиДляВыплатыЗарплаты" category="List">
+				<xr:TypeId>1886867c-3001-4c06-ae19-847099cad164</xr:TypeId>
+				<xr:ValueId>f8bdc8c4-0b3d-4db5-a41e-214b14094716</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыВидовДоговоровССотрудникамиДляВыплатыЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>101a1865-231f-4946-9ed2-648f370786c2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

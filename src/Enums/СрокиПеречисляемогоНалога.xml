@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="e38527b6-0d08-45c9-943d-b9317d9c00fd">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СрокиПеречисляемогоНалога" category="Ref">
+				<xr:TypeId>494aab2a-cf26-41dd-afbb-ad61412b63fb</xr:TypeId>
+				<xr:ValueId>178e0ff4-020e-4d7b-8a27-7989f4bf2189</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СрокиПеречисляемогоНалога" category="Manager">
+				<xr:TypeId>2f4ae7bf-4df2-4590-b35d-4213198018b6</xr:TypeId>
+				<xr:ValueId>74935f3d-761d-4a7b-b545-b12b4a39ef31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СрокиПеречисляемогоНалога" category="List">
+				<xr:TypeId>85eeaf98-892d-43bb-909b-e6156b70ac77</xr:TypeId>
+				<xr:ValueId>bdd8e74c-4f50-4dca-8ed9-34c4cba667b6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СрокиПеречисляемогоНалога</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fbf3c7e7-1d38-4bb0-b4c1-dcfe614ea9bd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bfc033e2-979e-488e-a19a-9d95880c0bcd">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>МежрасчетныеОтпускаИБольничные</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>97730b17-9cbe-4bdc-812f-0448e24eccf4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1c1550b5-60c2-4f65-a07e-583d6f3a59fc">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>315a6052-e223-4fab-b808-4afcf50eae08</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

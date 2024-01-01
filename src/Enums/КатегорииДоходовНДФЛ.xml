@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="1422c82f-0627-47f4-b4ad-78089b78576c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КатегорииДоходовНДФЛ" category="Ref">
+				<xr:TypeId>81f7b227-d286-4980-8419-72ce048ef0a3</xr:TypeId>
+				<xr:ValueId>d260c0e3-83a3-43c2-bf5b-574272c7f16b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КатегорииДоходовНДФЛ" category="Manager">
+				<xr:TypeId>8f8e59ef-99fe-4720-b288-de361b5792aa</xr:TypeId>
+				<xr:ValueId>b46a09fd-fd28-4f11-9cd1-1ced291f5be3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КатегорииДоходовНДФЛ" category="List">
+				<xr:TypeId>65fa5197-5ca4-4090-8d31-12276b237b2d</xr:TypeId>
+				<xr:ValueId>b59569a1-f555-4c6c-a093-676f65c4898a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииДоходовНДФЛ</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>55c07d7a-bb2c-4111-9c68-c398f0267617</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="78a82d89-1f3e-4fda-a77a-fa646b5975c6">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ОплатаТруда</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e317a202-e5d0-47be-9a88-e47752184122</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3d250146-916d-4628-aa95-5447d863bb17">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ДоходВНатуральнойФормеОтТрудовойДеятельности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b273a5ad-df81-46aa-bd89-d7422267d072</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4a41785e-15d7-4144-8a8f-f1cc840204d3">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеНатуральныеДоходы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3163597e-0e44-4c9f-bb8f-640090f2cd2b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b72f3352-1997-40d3-bdfb-0de49290096a">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыВДенежнойФормеОтТрудовойДеятельности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a88bbd81-096d-4577-8f5e-a63515e6bc2a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2c9d6e73-1de2-450a-a9c3-57d11f9853bf">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Дивиденды</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1a554422-e066-4c50-9c51-f2c4f18b672b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4feeed6e-59b3-4380-8d63-c0cbc05df7e4">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e07f68e6-b96c-4ca6-b96b-4b7c983d640b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24b2d368-ae73-4eb0-b479-9a138f1968eb">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ДивидендыПоСтавке05</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>f55856db-b889-4b0f-a170-7a59ebb05d66</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f040a51a-1cef-420f-a81c-6785e2269638">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ДивидендыПоСтавке10</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>81b2cdc1-557e-4023-a788-cadbb299aec0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d8d9100d-29d1-46b2-8cce-bf9f9c33b251">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ДивидендыПоСтавке12</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7ae0d89f-c8ad-40bb-b49a-6465a841e051</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a9861c01-16df-40c9-a7b2-805e7220e797">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>АвторскиеРоялтиПоСтавке03</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>448d9868-b846-4493-a5a6-de4fe5c5e69a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="448a0a71-f938-4e7f-abcb-035db5e806a4">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>АвторскиеРоялтиПроцентыПоСтавке05</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7d082971-0c88-4f78-be2d-a8cf6c4e0b55</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3983f47d-be46-4da5-bdea-c83bcdb1c2a3">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>АвторскиеРоялтиПоСтавке06</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0111d9d3-67b0-421d-94a2-6773bf632ea9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4c4440ef-b298-4030-b6db-6441bcb01665">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>АвторскиеРоялтиПроцентыПоСтавке07</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ea78dfd9-a06d-42a1-9210-0641a5a6dc52</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c7cbc9fb-9c18-4352-8767-0ea62e59bddf">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>АвторскиеРоялтиПроцентыПоСтавке10</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b35505b9-5a69-45f7-bd1d-307d8cf86efc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="675ee882-27ee-44ce-8279-7381ff23d105">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>АвторскиеРоялтиПроцентыПоСтавке15</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>eaf2d4b6-1e63-4503-a81f-8ad7734a8d98</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="653053a7-1d58-4264-8fbf-4fc8500ca6a4">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ДоходыПредыдущихРедакций</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2145f773-6e12-4b80-afbf-b306ea758e12</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="27e33f73-9a2a-4328-9774-3492884508a4">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыОтДолевогоУчастия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d122472a-0b5b-4dc1-9f47-9e2c2405f4b6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8c3f2980-cfed-41c7-a9d1-38e36e392976">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыПоВыигрышам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ab72e351-dd04-4f9e-9c67-2c3c83635ef2</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cbf82dbf-e094-4c56-a4e8-e09c97f205d5">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыЦБ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>14e508ae-bedf-470e-97ee-30e381cfafaa</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c866b49f-7ae5-4a67-baf5-3c8a9bd26aa7">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыРЕПО</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e3a9664c-73b6-4a85-92b9-52cf3d2f9e0a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a724a7ed-c077-45a4-9fdc-bcc8b7b6cfdc">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыЗаймЦБ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4a52d403-bd5a-4f42-9829-79ce81106f02</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d59e4b3b-51b1-41e8-acc6-3aab56545687">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыИИС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0727962a-8298-4ad9-9a5c-208af53b3246</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="64c60b73-f8f8-417c-875a-db3db51806a9">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрочиеДоходыПоОблигациям</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>30c9fe82-eae3-4497-bf4c-2e69a991ad52</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

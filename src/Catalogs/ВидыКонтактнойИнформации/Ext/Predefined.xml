@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.15">
+	<Item id="2751a9db-0b39-4392-a37a-cb41f7f8d4dd">
+		<Name>СправочникФизическиеЛица</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Физические лица"</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="c47cbfe2-c5f6-4ccc-9fb5-8def0f060e74">
+				<Name>АдресПоПропискеФизическиеЛица</Name>
+				<Code/>
+				<Description>Адрес по прописке</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+			<Item id="828eb53b-2a76-4997-8b29-dfb141c411af">
+				<Name>АдресМестаПроживанияФизическиеЛица</Name>
+				<Code/>
+				<Description>Адрес места проживания</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

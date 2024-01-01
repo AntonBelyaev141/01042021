@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="b2cf6546-5e3c-4be4-81e3-4a3cf0115bf5">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.НДФЛСтавкиНалогообложенияРезидента" category="Ref">
+				<xr:TypeId>0fdc81de-46fb-4303-9d91-5ba668f3f3cf</xr:TypeId>
+				<xr:ValueId>bcf474cb-a391-4f0d-868e-020cf547cb59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.НДФЛСтавкиНалогообложенияРезидента" category="Manager">
+				<xr:TypeId>c4c17f01-e240-400a-b504-e36a70dedfec</xr:TypeId>
+				<xr:ValueId>f26e1b17-32bf-4c97-98f0-1bfdea61fc85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.НДФЛСтавкиНалогообложенияРезидента" category="List">
+				<xr:TypeId>5da6bf75-4812-4b9f-942b-44b0ebd22885</xr:TypeId>
+				<xr:ValueId>d2c03294-14be-484e-b354-5edea2ea7e78</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НДФЛСтавкиНалогообложенияРезидента</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>44e504f3-a329-4687-b726-186e0f6f1ec9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3f445f57-82d3-47ef-81ab-c33c0df0366d">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Ставка09</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>131d07ae-5d07-4b56-800f-a431604e70d8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5731c981-24d4-4ae0-8703-0556db51521c">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Ставка13</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>feef7cdb-2058-43da-be05-7e1f8d79cacb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4cacbf16-8a71-4733-96c6-4f6544645323">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>Ставка35</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c96b5de4-5ebd-46f2-bbea-516bd97ef5f3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
