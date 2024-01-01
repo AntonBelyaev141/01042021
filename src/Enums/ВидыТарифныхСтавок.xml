@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="919861db-a8f3-4114-b4f8-f1443c94d211">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыТарифныхСтавок" category="Ref">
+				<xr:TypeId>6a12e329-3b1f-48a8-9e56-b882799fdb47</xr:TypeId>
+				<xr:ValueId>3432f4ff-6d6c-4f78-ad21-da6bdce3fda7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыТарифныхСтавок" category="Manager">
+				<xr:TypeId>d4a0b44c-02dd-4fb3-8557-d03c8ce3fc79</xr:TypeId>
+				<xr:ValueId>bb718698-8eff-4a5e-bd1b-d72a875ba2e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыТарифныхСтавок" category="List">
+				<xr:TypeId>ec09fd32-78e3-4617-b5b5-d83320247440</xr:TypeId>
+				<xr:ValueId>8da5077f-5cc0-4897-a475-e3653db8dc14</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыТарифныхСтавок</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>17228a49-ce45-48d8-95e6-efbaa0d3dcc2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3aba1495-9167-49c1-889f-df3e3d35e17b">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>МесячнаяТарифнаяСтавка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a4416cfb-2cfc-4363-93ac-94b35a33f569</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8acae432-5adb-4962-ad99-f8cf5126e59e">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ЧасоваяТарифнаяСтавка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3fa9a47f-9fce-4a26-bd9d-d960a09526c8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6740098f-3dcc-4e31-86e9-2aadbde5a494">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ДневнаяТарифнаяСтавка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2ad58f7e-4511-48d8-8a2c-eba46216a9d0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

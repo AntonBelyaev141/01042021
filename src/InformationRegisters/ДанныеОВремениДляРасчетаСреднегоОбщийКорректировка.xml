@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="02edb901-0d57-4d46-9487-736c69d82302">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="Record">
+				<xr:TypeId>ada91c8c-0095-41c8-85b0-e5564f0a183e</xr:TypeId>
+				<xr:ValueId>a6036d9e-f75a-4d92-9d71-62286ff7b9b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="Manager">
+				<xr:TypeId>3db74a5b-978d-40e6-a9b6-3606bab48b88</xr:TypeId>
+				<xr:ValueId>e50ffda8-772e-4244-b9c7-ad0fa4e75fa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="Selection">
+				<xr:TypeId>e5cd29fd-a2c0-4983-948f-895f07e65b68</xr:TypeId>
+				<xr:ValueId>0ad0b5a2-6c12-48b1-bb59-7b8fd116707f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="List">
+				<xr:TypeId>78746192-f801-45a4-bd1a-a451aa558a47</xr:TypeId>
+				<xr:ValueId>90742e6e-f8ce-45d9-a778-46b46e94bf1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="RecordSet">
+				<xr:TypeId>48607920-666c-48cf-bf6a-e8dc9771d349</xr:TypeId>
+				<xr:ValueId>9f8ca94d-7251-41ad-b745-0692f19ff998</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="RecordKey">
+				<xr:TypeId>aa4345bf-efdf-4ef7-8d17-ad4f250b3f07</xr:TypeId>
+				<xr:ValueId>4c1659ac-4b54-49ec-9999-ece074f01302</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка" category="RecordManager">
+				<xr:TypeId>ea320403-909b-4057-9e8a-6250726f9268</xr:TypeId>
+				<xr:ValueId>8ca2596f-99fc-4f76-aa35-4a307acb97b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДанныеОВремениДляРасчетаСреднегоОбщийКорректировка</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d494038d-d603-4afc-b73f-8b9b4fd4c4d0</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

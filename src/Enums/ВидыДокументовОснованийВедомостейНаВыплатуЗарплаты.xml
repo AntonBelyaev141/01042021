@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="7e33cab1-8b80-4220-b8b3-8e553108c834">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДокументовОснованийВедомостейНаВыплатуЗарплаты" category="Ref">
+				<xr:TypeId>b153f9a8-c500-4b38-8676-901c81ce9527</xr:TypeId>
+				<xr:ValueId>4e392e16-057b-447b-8267-360c0861ad4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДокументовОснованийВедомостейНаВыплатуЗарплаты" category="Manager">
+				<xr:TypeId>527b93a5-d84f-4364-9439-856e7ade467f</xr:TypeId>
+				<xr:ValueId>7d635d0d-09d1-4930-844f-5abac50d82fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДокументовОснованийВедомостейНаВыплатуЗарплаты" category="List">
+				<xr:TypeId>570b6921-ef69-438e-86f4-254aba966e8c</xr:TypeId>
+				<xr:ValueId>73165051-804f-4ea4-bb73-dccbd0c2e34f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДокументовОснованийВедомостейНаВыплатуЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>080c9890-5a00-4676-b543-47bc99a926c7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Constant uuid="61b02ab3-88c5-4fba-b4f9-4606aa61b432">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьНачислениеЗарплаты" category="Manager">
+				<xr:TypeId>c94857c9-7208-48e9-9ac8-f95dc61bc66b</xr:TypeId>
+				<xr:ValueId>2e60add9-3391-4958-af5d-5d4c5e587e81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьНачислениеЗарплаты" category="ValueManager">
+				<xr:TypeId>017794c2-af8b-4887-bafd-7cedde188259</xr:TypeId>
+				<xr:ValueId>62ebe943-4a57-4189-97d9-41885358614a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьНачислениеЗарплаты" category="ValueKey">
+				<xr:TypeId>56960ee7-f389-4aa9-8d60-6853b5bef674</xr:TypeId>
+				<xr:ValueId>6a24641d-541a-41ce-a655-9f2b4e84b6e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьНачислениеЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>73094e4f-c91e-4c8a-b697-408beb051352</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

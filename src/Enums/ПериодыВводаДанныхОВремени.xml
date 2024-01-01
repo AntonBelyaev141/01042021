@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="57c81167-0a6b-4209-8e9b-2b6925a0b35b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПериодыВводаДанныхОВремени" category="Ref">
+				<xr:TypeId>d6d73e09-6770-4292-b4be-0adebdebfe44</xr:TypeId>
+				<xr:ValueId>82077bdf-ce4f-48cd-b57d-fecf773c5bfb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПериодыВводаДанныхОВремени" category="Manager">
+				<xr:TypeId>f61cae03-d804-43cc-a81b-795e13224ffa</xr:TypeId>
+				<xr:ValueId>4cfa94d5-7732-43bb-9039-62115695e28c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПериодыВводаДанныхОВремени" category="List">
+				<xr:TypeId>e09cbe38-dfba-435a-9cd9-103c6b6d2839</xr:TypeId>
+				<xr:ValueId>d59e9494-d36d-4f71-9ece-7425dbe67964</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПериодыВводаДанныхОВремени</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6c69b6b8-8263-429f-ae54-601e689d9e15</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a51e8acd-4544-4fb1-a7b6-0a854c630a77">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ТекущийМесяц</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0f4f2674-a94c-46cb-8870-aec67551798d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d8fde5ee-6f6d-44e6-abe2-7c2961146d0b">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПерваяПоловинаТекущегоМесяца</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>dc9af4bd-c72e-49fc-92f0-d1e50ab2c9ba</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ac7a89a2-8af4-413d-b552-3530272d9800">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ВтораяПоловинаТекущегоМесяца</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>318e953f-2a8e-4946-91d8-029ff913bef9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="96b5bb28-5d19-4a3a-86de-a5998cb0e46e">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПрошлыйПериод</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>854747ca-61ff-40c3-9399-8d087f4f622f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

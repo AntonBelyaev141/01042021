@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="3dbfe0a7-582e-475e-a660-a45db73b221e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПолученияЗарплатыКВыплате" category="Ref">
+				<xr:TypeId>bf040c29-db0d-4ef1-bd92-16409e46d2f7</xr:TypeId>
+				<xr:ValueId>997605d8-aeae-47ca-8010-d9c8cb4abe24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПолученияЗарплатыКВыплате" category="Manager">
+				<xr:TypeId>c25d14bf-da10-4fa7-8b79-cbfbac43dd55</xr:TypeId>
+				<xr:ValueId>9e4ed383-25fe-4f65-89d5-7ff9e04fe3c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПолученияЗарплатыКВыплате" category="List">
+				<xr:TypeId>79c35183-e27a-4862-bd71-157abc51c90f</xr:TypeId>
+				<xr:ValueId>1900ef2a-c31e-4872-9bde-b0331efd82d0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыПолученияЗарплатыКВыплате</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>4411ac63-2cd6-4e74-aedb-443cdbd39440</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

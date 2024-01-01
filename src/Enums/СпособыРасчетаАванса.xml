@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="abf9e687-f410-4a52-949f-06c5ee8d430a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРасчетаАванса" category="Ref">
+				<xr:TypeId>1db95d95-ff37-4e80-9ee7-a023d7d800a6</xr:TypeId>
+				<xr:ValueId>29cdbf46-839a-4233-8251-ae851d721cb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРасчетаАванса" category="Manager">
+				<xr:TypeId>06a7ef5b-d5c7-4aad-b76d-ccefeca0ffe7</xr:TypeId>
+				<xr:ValueId>f9acf5e7-4fdc-40aa-bc62-70a85aacf9fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРасчетаАванса" category="List">
+				<xr:TypeId>ed468319-0b46-44a1-bc73-39c0d8c15df9</xr:TypeId>
+				<xr:ValueId>17367bd7-63ec-48d4-ab27-5f4c96f1cd8e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыРасчетаАванса</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f7417e62-fe98-4e00-832d-a5d7905b3c6a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ebc6b1a6-d121-4f06-9123-3e776d024cb7">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ФиксированнойСуммой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7e34acd8-d086-4d29-8b7a-8b449a9bc921</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fd102dee-60e2-4a2e-bde9-ad475115c3c6">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ПроцентомОтТарифа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>446f341d-8e75-4a6c-b884-5bfff1ea41d6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="020ded8a-32f0-4e41-b25e-88beda09a6d9">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>РасчетомЗаПервуюПоловинуМесяца</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e7506535-6d5c-4c54-910f-265bd02a5b91</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

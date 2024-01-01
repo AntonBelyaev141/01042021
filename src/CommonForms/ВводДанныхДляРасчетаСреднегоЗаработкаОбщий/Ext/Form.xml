@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>Bottom</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<HorizontalAlign>Right</HorizontalAlign>
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="OK" id="43">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="OKExtendedTooltip" id="63"/>
+			</Button>
+			<Button name="Отмена" id="44">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="ОтменаExtendedTooltip" id="64"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="171">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="172"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаВыборПериода" id="102">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчетный период среднего заработка</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаВыборПериодаРасширеннаяПодсказка" id="103"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияВыборПериода" id="115">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчетный период среднего заработка</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияВыборПериодаКонтекстноеМеню" id="116"/>
+							<ExtendedTooltip name="ДекорацияВыборПериодаРасширеннаяПодсказка" id="117"/>
+						</LabelDecoration>
+						<RadioButtonField name="ФиксПериодРасчетаАвтоматически" id="107">
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Auto</RadioButtonType>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Стандартный, определяется автоматически</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">0</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ФиксПериодРасчетаАвтоматическиКонтекстноеМеню" id="108"/>
+							<ExtendedTooltip name="ФиксПериодРасчетаАвтоматическиРасширеннаяПодсказка" id="109"/>
+						</RadioButtonField>
+						<UsualGroup name="ГруппаПериодРасчета" id="94">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период расчета</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПериодРасчетаРасширеннаяПодсказка" id="95"/>
+							<ChildItems>
+								<RadioButtonField name="ФиксПериодРасчетаВручную" id="104">
+									<TitleLocation>None</TitleLocation>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Задается вручную</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="ФиксПериодРасчетаВручнуюКонтекстноеМеню" id="105"/>
+									<ExtendedTooltip name="ФиксПериодРасчетаВручнуюРасширеннаяПодсказка" id="106"/>
+								</RadioButtonField>
+								<InputField name="НачалоПериодаРасчетаСтрокой" id="96">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>с</v8:content>
+										</v8:item>
+									</Title>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="НачалоПериодаРасчетаСтрокойКонтекстноеМеню" id="97"/>
+									<ExtendedTooltip name="НачалоПериодаРасчетаСтрокойРасширеннаяПодсказка" id="98"/>
+								</InputField>
+								<InputField name="ОкончаниеПериодаРасчетаСтрокой" id="99">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>по</v8:content>
+										</v8:item>
+									</Title>
+									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
+									<ContextMenu name="ОкончаниеПериодаРасчетаСтрокойКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ОкончаниеПериодаРасчетаСтрокойРасширеннаяПодсказка" id="101"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<CommandBar name="КоманднаяПанельСправка" id="177">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель справка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КоманднаяПанельСправкаРасширеннаяПодсказка" id="178"/>
+					<ChildItems>
+						<Button name="Справка" id="175">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="176"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ОсновнойЗаработокГруппа" id="167">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основной заработок</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ExtendedTooltip name="ОсновнойЗаработокГруппаРасширеннаяПодсказка" id="168"/>
+			<ChildItems>
+				<Table name="СреднийЗаработок" id="1">
+					<Representation>List</Representation>
+					<DefaultItem>true</DefaultItem>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<HeightInTableRows>9</HeightInTableRows>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Средний заработок</v8:content>
+						</v8:item>
+					</Title>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СреднийЗаработокКонтекстноеМеню" id="2">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="РасширенноеРедактированиеЗначения" id="47">
+								<Type>CommandBarButton</Type>
+								<Enabled>false</Enabled>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="РасширенноеРедактированиеЗначенияExtendedTooltip" id="66"/>
+							</Button>
+						</ChildItems>
+					</ContextMenu>
+					<AutoCommandBar name="СреднийЗаработокКоманднаяПанель" id="3">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="ДополнитьДанныеСреднегоЗаработка" id="58">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ДополнитьДанныеСреднегоЗаработкаРасширеннаяПодсказка" id="67"/>
+							</Button>
+							<Button name="ПеречитатьДанныеУчета" id="59">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ПеречитатьДанныеУчетаExtendedTooltip" id="68"/>
+							</Button>
+							<Button name="ОчиститьРучныеИзменения" id="130">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ОчиститьРучныеИзмененияРасширеннаяПодсказка" id="131"/>
+							</Button>
+							<Button name="СреднийЗаработокАнализПремий" id="181">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="СреднийЗаработокАнализПремийРасширеннаяПодсказка" id="182"/>
+							</Button>
+							<Popup name="ПодменюДобавлениеСтрок" id="132">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Добавление строк</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Команды для вставки строк</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="ПодменюДобавлениеСтрокРасширеннаяПодсказка" id="133"/>
+							</Popup>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СреднийЗаработокExtendedTooltip" id="69"/>
+					<SearchStringAddition name="СреднийЗаработокСтрокаПоиска" id="121">
+						<AdditionSource>
+							<Item>СреднийЗаработок</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СреднийЗаработокСтрокаПоискаКонтекстноеМеню" id="122"/>
+						<ExtendedTooltip name="СреднийЗаработокСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СреднийЗаработокСостояниеПросмотра" id="124">
+						<AdditionSource>
+							<Item>СреднийЗаработок</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СреднийЗаработокСостояниеПросмотраКонтекстноеМеню" id="125"/>
+						<ExtendedTooltip name="СреднийЗаработокСостояниеПросмотраРасширеннаяПодсказка" id="126"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СреднийЗаработокУправлениеПоиском" id="127">
+						<AdditionSource>
+							<Item>СреднийЗаработок</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СреднийЗаработокУправлениеПоискомКонтекстноеМеню" id="128"/>
+						<ExtendedTooltip name="СреднийЗаработокУправлениеПоискомРасширеннаяПодсказка" id="129"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="СреднийЗаработокСоставнаяЧасть" id="28">
+							<ReadOnly>true</ReadOnly>
+							<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+							<TitleLocation>None</TitleLocation>
+							<EditMode>EnterOnInput</EditMode>
+							<FixingInTable>Left</FixingInTable>
+							<Width>18</Width>
+							<Height>1</Height>
+							<BackColor>style:ButtonBackColor</BackColor>
+							<Font ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+							<ContextMenu name="СреднийЗаработокСоставнаяЧастьКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="СреднийЗаработокСоставнаяЧастьExtendedTooltip" id="70"/>
+						</InputField>
+						<LabelField name="СреднийЗаработокИтого" id="118">
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<FixingInTable>Left</FixingInTable>
+							<Width>10</Width>
+							<BackColor>style:ButtonBackColor</BackColor>
+							<ContextMenu name="СреднийЗаработокИтогоКонтекстноеМеню" id="119"/>
+							<ExtendedTooltip name="СреднийЗаработокИтогоРасширеннаяПодсказка" id="120"/>
+						</LabelField>
+						<ColumnGroup name="СреднийЗаработокЗначения" id="113">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Средний заработок значения</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="СреднийЗаработокЗначенияРасширеннаяПодсказка" id="114"/>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+				<Button name="АнализПремий" id="179">
+					<Type>Hyperlink</Type>
+					<CommandName>0</CommandName>
+					<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+					<ExtendedTooltip name="АнализПремийРасширеннаяПодсказка" id="180">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Не все премии включены в расчет, см.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГодовыеПремииГруппа" id="137">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Годовые премии</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<Representation>NormalSeparation</Representation>
+			<ExtendedTooltip name="ГодовыеПремииГруппаРасширеннаяПодсказка" id="138"/>
+			<ChildItems>
+				<Table name="ГодовыеПремии" id="139">
+					<Representation>List</Representation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<Height>3</Height>
+					<Header>false</Header>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Годовые премии</v8:content>
+						</v8:item>
+					</Title>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ГодовыеПремииКонтекстноеМеню" id="140">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="ОткрытьРасшифровкуГодовойПремии" id="169">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ОткрытьРасшифровкуГодовойПремииРасширеннаяПодсказка" id="170"/>
+							</Button>
+						</ChildItems>
+					</ContextMenu>
+					<AutoCommandBar name="ГодовыеПремииКоманднаяПанель" id="141">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ГодовыеПремииРасширеннаяПодсказка" id="142"/>
+					<SearchStringAddition name="ГодовыеПремииСтрокаПоиска" id="143">
+						<AdditionSource>
+							<Item>ГодовыеПремии</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ГодовыеПремииСтрокаПоискаКонтекстноеМеню" id="144"/>
+						<ExtendedTooltip name="ГодовыеПремииСтрокаПоискаРасширеннаяПодсказка" id="145"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ГодовыеПремииСостояниеПросмотра" id="146">
+						<AdditionSource>
+							<Item>ГодовыеПремии</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ГодовыеПремииСостояниеПросмотраКонтекстноеМеню" id="147"/>
+						<ExtendedTooltip name="ГодовыеПремииСостояниеПросмотраРасширеннаяПодсказка" id="148"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ГодовыеПремииУправлениеПоиском" id="149">
+						<AdditionSource>
+							<Item>ГодовыеПремии</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ГодовыеПремииУправлениеПоискомКонтекстноеМеню" id="150"/>
+						<ExtendedTooltip name="ГодовыеПремииУправлениеПоискомРасширеннаяПодсказка" id="151"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ГодовыеПремииЗаголовокСтроки" id="152">
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<BackColor>style:ButtonBackColor</BackColor>
+							<ContextMenu name="ГодовыеПремииЗаголовокСтрокиКонтекстноеМеню" id="153"/>
+							<ExtendedTooltip name="ГодовыеПремииЗаголовокСтрокиРасширеннаяПодсказка" id="154"/>
+						</InputField>
+						<InputField name="ГодовыеПремииЗначение" id="164">
+							<EditMode>EnterOnInput</EditMode>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</Format>
+							<EditFormat>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</EditFormat>
+							<ContextMenu name="ГодовыеПремииЗначениеКонтекстноеМеню" id="165"/>
+							<ExtendedTooltip name="ГодовыеПремииЗначениеРасширеннаяПодсказка" id="166"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ИндексацияЗаработкаГруппа" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Индексация заработка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ИндексацияЗаработкаГруппаExtendedTooltip" id="85"/>
+			<ChildItems>
+				<UsualGroup name="СведенияОбИндексацииГруппа" id="34">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения об индексации</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
+					<Group>Horizontal</Group>
+					<Behavior>Usual</Behavior>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="СведенияОбИндексацииГруппаExtendedTooltip" id="86"/>
+					<ChildItems>
+						<LabelDecoration name="КоэффициентыИндексацииИнформационныйТекст" id="54">
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="КоэффициентыИндексацииИнформационныйТекстКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="КоэффициентыИндексацииИнформационныйТекстExtendedTooltip" id="88"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<Button name="ПерейтиКДокументамИндексации" id="53">
+					<Type>Hyperlink</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перейти к документам индексации заработка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПерейтиКДокументамИндексацииExtendedTooltip" id="89"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="СреднийЗаработокСтраницы" id="60">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Средний заработок страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="СреднийЗаработокСтраницыExtendedTooltip" id="90"/>
+			<ChildItems>
+				<Page name="СреднийЗаработокЕдинственныйСпособ" id="61">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Средний заработок единственный способ</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СреднийЗаработокЕдинственныйСпособExtendedTooltip" id="91"/>
+					<ChildItems>
+						<InputField name="СреднийЗаработокИтог" id="40">
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Средний заработок</v8:content>
+								</v8:item>
+							</Title>
+							<Width>8</Width>
+							<ChoiceButton>false</ChoiceButton>
+							<Format>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2; ЧН='&lt;недостаточно данных&gt;'</v8:content>
+								</v8:item>
+							</Format>
+							<ContextMenu name="СреднийЗаработокИтогКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="СреднийЗаработокИтогExtendedTooltip" id="92"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СреднийЗаработокПоСпособамРасчета" id="62">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Средний заработок по способам расчета</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="СреднийЗаработокПоСпособамРасчетаExtendedTooltip" id="93"/>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СреднийЗаработокИтого</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СреднийЗаработок.ФорматЗначения</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">ЧДЦ=2</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=2</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>СреднийЗаработокИтого</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СреднийЗаработок.ФорматЗначения</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">ЧДЦ=0</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Формат</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+	</Commands>
+	<Parameters>
+	</Parameters>
+	<BaseForm version="2.15">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoTitle>false</AutoTitle>
+		<CommandBarLocation>Bottom</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<HorizontalAlign>Right</HorizontalAlign>
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="OK" id="43">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="OKExtendedTooltip" id="63"/>
+				</Button>
+				<Button name="Отмена" id="44">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОтменаExtendedTooltip" id="64"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаШапка" id="171">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="172"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаВыборПериода" id="102">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Расчетный период среднего заработка</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаВыборПериодаРасширеннаяПодсказка" id="103"/>
+						<ChildItems>
+							<LabelDecoration name="ДекорацияВыборПериода" id="115">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Расчетный период среднего заработка</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияВыборПериодаКонтекстноеМеню" id="116"/>
+								<ExtendedTooltip name="ДекорацияВыборПериодаРасширеннаяПодсказка" id="117"/>
+							</LabelDecoration>
+							<RadioButtonField name="ФиксПериодРасчетаАвтоматически" id="107">
+								<TitleLocation>None</TitleLocation>
+								<RadioButtonType>Auto</RadioButtonType>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Стандартный, определяется автоматически</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:decimal">0</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ContextMenu name="ФиксПериодРасчетаАвтоматическиКонтекстноеМеню" id="108"/>
+								<ExtendedTooltip name="ФиксПериодРасчетаАвтоматическиРасширеннаяПодсказка" id="109"/>
+							</RadioButtonField>
+							<UsualGroup name="ГруппаПериодРасчета" id="94">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Период расчета</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаПериодРасчетаРасширеннаяПодсказка" id="95"/>
+								<ChildItems>
+									<RadioButtonField name="ФиксПериодРасчетаВручную" id="104">
+										<TitleLocation>None</TitleLocation>
+										<RadioButtonType>Auto</RadioButtonType>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Задается вручную</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:decimal">1</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ContextMenu name="ФиксПериодРасчетаВручнуюКонтекстноеМеню" id="105"/>
+										<ExtendedTooltip name="ФиксПериодРасчетаВручнуюРасширеннаяПодсказка" id="106"/>
+									</RadioButtonField>
+									<InputField name="НачалоПериодаРасчетаСтрокой" id="96">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>с</v8:content>
+											</v8:item>
+										</Title>
+										<ChoiceButton>true</ChoiceButton>
+										<SpinButton>true</SpinButton>
+										<ContextMenu name="НачалоПериодаРасчетаСтрокойКонтекстноеМеню" id="97"/>
+										<ExtendedTooltip name="НачалоПериодаРасчетаСтрокойРасширеннаяПодсказка" id="98"/>
+									</InputField>
+									<InputField name="ОкончаниеПериодаРасчетаСтрокой" id="99">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>по</v8:content>
+											</v8:item>
+										</Title>
+										<ChoiceButton>true</ChoiceButton>
+										<SpinButton>true</SpinButton>
+										<ContextMenu name="ОкончаниеПериодаРасчетаСтрокойКонтекстноеМеню" id="100"/>
+										<ExtendedTooltip name="ОкончаниеПериодаРасчетаСтрокойРасширеннаяПодсказка" id="101"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<CommandBar name="КоманднаяПанельСправка" id="177">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Командная панель справка</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="КоманднаяПанельСправкаРасширеннаяПодсказка" id="178"/>
+						<ChildItems>
+							<Button name="Справка" id="175">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="176"/>
+							</Button>
+						</ChildItems>
+					</CommandBar>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ОсновнойЗаработокГруппа" id="167">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основной заработок</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ExtendedTooltip name="ОсновнойЗаработокГруппаРасширеннаяПодсказка" id="168"/>
+				<ChildItems>
+					<Table name="СреднийЗаработок" id="1">
+						<Representation>List</Representation>
+						<DefaultItem>true</DefaultItem>
+						<ChangeRowSet>false</ChangeRowSet>
+						<ChangeRowOrder>false</ChangeRowOrder>
+						<HeightInTableRows>9</HeightInTableRows>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Средний заработок</v8:content>
+							</v8:item>
+						</Title>
+						<SearchStringLocation>None</SearchStringLocation>
+						<ViewStatusLocation>None</ViewStatusLocation>
+						<SearchControlLocation>None</SearchControlLocation>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="СреднийЗаработокКонтекстноеМеню" id="2">
+							<Autofill>false</Autofill>
+							<ChildItems>
+								<Button name="РасширенноеРедактированиеЗначения" id="47">
+									<Type>CommandBarButton</Type>
+									<Enabled>false</Enabled>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="РасширенноеРедактированиеЗначенияExtendedTooltip" id="66"/>
+								</Button>
+							</ChildItems>
+						</ContextMenu>
+						<AutoCommandBar name="СреднийЗаработокКоманднаяПанель" id="3">
+							<Autofill>false</Autofill>
+							<ChildItems>
+								<Button name="ДополнитьДанныеСреднегоЗаработка" id="58">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ДополнитьДанныеСреднегоЗаработкаРасширеннаяПодсказка" id="67"/>
+								</Button>
+								<Button name="ПеречитатьДанныеУчета" id="59">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ПеречитатьДанныеУчетаExtendedTooltip" id="68"/>
+								</Button>
+								<Button name="ОчиститьРучныеИзменения" id="130">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="ОчиститьРучныеИзмененияРасширеннаяПодсказка" id="131"/>
+								</Button>
+								<Button name="СреднийЗаработокАнализПремий" id="181">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="СреднийЗаработокАнализПремийРасширеннаяПодсказка" id="182"/>
+								</Button>
+								<Popup name="ПодменюДобавлениеСтрок" id="132">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Добавление строк</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Команды для вставки строк</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ПодменюДобавлениеСтрокРасширеннаяПодсказка" id="133"/>
+								</Popup>
+							</ChildItems>
+						</AutoCommandBar>
+						<ExtendedTooltip name="СреднийЗаработокExtendedTooltip" id="69"/>
+						<SearchStringAddition name="СреднийЗаработокСтрокаПоиска" id="121">
+							<AdditionSource>
+								<Item>СреднийЗаработок</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="СреднийЗаработокСтрокаПоискаКонтекстноеМеню" id="122"/>
+							<ExtendedTooltip name="СреднийЗаработокСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="СреднийЗаработокСостояниеПросмотра" id="124">
+							<AdditionSource>
+								<Item>СреднийЗаработок</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="СреднийЗаработокСостояниеПросмотраКонтекстноеМеню" id="125"/>
+							<ExtendedTooltip name="СреднийЗаработокСостояниеПросмотраРасширеннаяПодсказка" id="126"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="СреднийЗаработокУправлениеПоиском" id="127">
+							<AdditionSource>
+								<Item>СреднийЗаработок</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="СреднийЗаработокУправлениеПоискомКонтекстноеМеню" id="128"/>
+							<ExtendedTooltip name="СреднийЗаработокУправлениеПоискомРасширеннаяПодсказка" id="129"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<InputField name="СреднийЗаработокСоставнаяЧасть" id="28">
+								<ReadOnly>true</ReadOnly>
+								<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								<TitleLocation>None</TitleLocation>
+								<EditMode>EnterOnInput</EditMode>
+								<FixingInTable>Left</FixingInTable>
+								<Width>18</Width>
+								<Height>1</Height>
+								<BackColor>style:ButtonBackColor</BackColor>
+								<Font ref="sys:DefaultGUIFont" kind="WindowsFont"/>
+								<ContextMenu name="СреднийЗаработокСоставнаяЧастьКонтекстноеМеню" id="29"/>
+								<ExtendedTooltip name="СреднийЗаработокСоставнаяЧастьExtendedTooltip" id="70"/>
+							</InputField>
+							<LabelField name="СреднийЗаработокИтого" id="118">
+								<ReadOnly>true</ReadOnly>
+								<EditMode>EnterOnInput</EditMode>
+								<FixingInTable>Left</FixingInTable>
+								<Width>10</Width>
+								<BackColor>style:ButtonBackColor</BackColor>
+								<ContextMenu name="СреднийЗаработокИтогоКонтекстноеМеню" id="119"/>
+								<ExtendedTooltip name="СреднийЗаработокИтогоРасширеннаяПодсказка" id="120"/>
+							</LabelField>
+							<ColumnGroup name="СреднийЗаработокЗначения" id="113">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Средний заработок значения</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<ExtendedTooltip name="СреднийЗаработокЗначенияРасширеннаяПодсказка" id="114"/>
+							</ColumnGroup>
+						</ChildItems>
+					</Table>
+					<Button name="АнализПремий" id="179">
+						<Type>Hyperlink</Type>
+						<CommandName>0</CommandName>
+						<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+						<ExtendedTooltip name="АнализПремийРасширеннаяПодсказка" id="180">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Не все премии включены в расчет, см.</v8:content>
+								</v8:item>
+							</Title>
+						</ExtendedTooltip>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГодовыеПремииГруппа" id="137">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Годовые премии</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ControlRepresentation>Picture</ControlRepresentation>
+				<Representation>NormalSeparation</Representation>
+				<ExtendedTooltip name="ГодовыеПремииГруппаРасширеннаяПодсказка" id="138"/>
+				<ChildItems>
+					<Table name="ГодовыеПремии" id="139">
+						<Representation>List</Representation>
+						<ChangeRowSet>false</ChangeRowSet>
+						<ChangeRowOrder>false</ChangeRowOrder>
+						<Height>3</Height>
+						<Header>false</Header>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Годовые премии</v8:content>
+							</v8:item>
+						</Title>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="ГодовыеПремииКонтекстноеМеню" id="140">
+							<Autofill>false</Autofill>
+							<ChildItems>
+								<Button name="ОткрытьРасшифровкуГодовойПремии" id="169">
+									<Type>CommandBarButton</Type>
+									<CommandName>0</CommandName>
+									<ExtendedTooltip name="ОткрытьРасшифровкуГодовойПремииРасширеннаяПодсказка" id="170"/>
+								</Button>
+							</ChildItems>
+						</ContextMenu>
+						<AutoCommandBar name="ГодовыеПремииКоманднаяПанель" id="141">
+							<Autofill>false</Autofill>
+						</AutoCommandBar>
+						<ExtendedTooltip name="ГодовыеПремииРасширеннаяПодсказка" id="142"/>
+						<SearchStringAddition name="ГодовыеПремииСтрокаПоиска" id="143">
+							<AdditionSource>
+								<Item>ГодовыеПремии</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ГодовыеПремииСтрокаПоискаКонтекстноеМеню" id="144"/>
+							<ExtendedTooltip name="ГодовыеПремииСтрокаПоискаРасширеннаяПодсказка" id="145"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ГодовыеПремииСостояниеПросмотра" id="146">
+							<AdditionSource>
+								<Item>ГодовыеПремии</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ГодовыеПремииСостояниеПросмотраКонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="ГодовыеПремииСостояниеПросмотраРасширеннаяПодсказка" id="148"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ГодовыеПремииУправлениеПоиском" id="149">
+							<AdditionSource>
+								<Item>ГодовыеПремии</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ГодовыеПремииУправлениеПоискомКонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="ГодовыеПремииУправлениеПоискомРасширеннаяПодсказка" id="151"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<InputField name="ГодовыеПремииЗаголовокСтроки" id="152">
+								<ReadOnly>true</ReadOnly>
+								<EditMode>EnterOnInput</EditMode>
+								<BackColor>style:ButtonBackColor</BackColor>
+								<ContextMenu name="ГодовыеПремииЗаголовокСтрокиКонтекстноеМеню" id="153"/>
+								<ExtendedTooltip name="ГодовыеПремииЗаголовокСтрокиРасширеннаяПодсказка" id="154"/>
+							</InputField>
+							<InputField name="ГодовыеПремииЗначение" id="164">
+								<EditMode>EnterOnInput</EditMode>
+								<Format>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ЧДЦ=2</v8:content>
+									</v8:item>
+								</Format>
+								<EditFormat>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ЧДЦ=2</v8:content>
+									</v8:item>
+								</EditFormat>
+								<ContextMenu name="ГодовыеПремииЗначениеКонтекстноеМеню" id="165"/>
+								<ExtendedTooltip name="ГодовыеПремииЗначениеРасширеннаяПодсказка" id="166"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ИндексацияЗаработкаГруппа" id="33">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Индексация заработка</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Behavior>Usual</Behavior>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ИндексацияЗаработкаГруппаExtendedTooltip" id="85"/>
+				<ChildItems>
+					<UsualGroup name="СведенияОбИндексацииГруппа" id="34">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сведения об индексации</v8:content>
+							</v8:item>
+						</Title>
+						<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
+						<Group>Horizontal</Group>
+						<Behavior>Usual</Behavior>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="СведенияОбИндексацииГруппаExtendedTooltip" id="86"/>
+						<ChildItems>
+							<LabelDecoration name="КоэффициентыИндексацииИнформационныйТекст" id="54">
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<ContextMenu name="КоэффициентыИндексацииИнформационныйТекстКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="КоэффициентыИндексацииИнформационныйТекстExtendedTooltip" id="88"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<Button name="ПерейтиКДокументамИндексации" id="53">
+						<Type>Hyperlink</Type>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Перейти к документам индексации заработка</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПерейтиКДокументамИндексацииExtendedTooltip" id="89"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="СреднийЗаработокСтраницы" id="60">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Средний заработок страницы</v8:content>
+					</v8:item>
+				</Title>
+				<PagesRepresentation>None</PagesRepresentation>
+				<ExtendedTooltip name="СреднийЗаработокСтраницыExtendedTooltip" id="90"/>
+				<ChildItems>
+					<Page name="СреднийЗаработокЕдинственныйСпособ" id="61">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Средний заработок единственный способ</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СреднийЗаработокЕдинственныйСпособExtendedTooltip" id="91"/>
+						<ChildItems>
+							<InputField name="СреднийЗаработокИтог" id="40">
+								<ReadOnly>true</ReadOnly>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Средний заработок</v8:content>
+									</v8:item>
+								</Title>
+								<Width>8</Width>
+								<ChoiceButton>false</ChoiceButton>
+								<Format>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>ЧДЦ=2; ЧН='&lt;недостаточно данных&gt;'</v8:content>
+									</v8:item>
+								</Format>
+								<ContextMenu name="СреднийЗаработокИтогКонтекстноеМеню" id="41"/>
+								<ExtendedTooltip name="СреднийЗаработокИтогExtendedTooltip" id="92"/>
+							</InputField>
+						</ChildItems>
+					</Page>
+					<Page name="СреднийЗаработокПоСпособамРасчета" id="62">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Средний заработок по способам расчета</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<ExtendedTooltip name="СреднийЗаработокПоСпособамРасчетаExtendedTooltip" id="93"/>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>СреднийЗаработокИтого</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">СреднийЗаработок.ФорматЗначения</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:string">ЧДЦ=2</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>СреднийЗаработокИтого</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">СреднийЗаработок.ФорматЗначения</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:string">ЧДЦ=0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="47ab137b-68f4-4b06-aa94-5d5b8dd584c7" extendedConfigurationObject="4281b217-27d9-49ae-937f-d27a300469db">
-  <name>ЦветФонаПредупрежденияБЗК</name>
-  <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:StyleItemExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <type>Checked</type>
-  </extension>
-</mdclass:StyleItem>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="f16b9082-758b-46c7-ab31-bef69ec17db3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДокументыФизическихЛиц" category="Record">
+				<xr:TypeId>efc9934f-ceed-49e5-bd25-efbb1a602c5d</xr:TypeId>
+				<xr:ValueId>327f8e8a-407b-44d4-8de4-55976d5598d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДокументыФизическихЛиц" category="Manager">
+				<xr:TypeId>e9596afc-c6b6-4654-aea6-f8ff54c4e981</xr:TypeId>
+				<xr:ValueId>cacefa3e-4937-4a8b-a365-e2eacede1dc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДокументыФизическихЛиц" category="Selection">
+				<xr:TypeId>dcfdcd8d-e9d5-47c8-9534-b44fb9c93eed</xr:TypeId>
+				<xr:ValueId>e5625d47-ce8a-4a8b-b158-e66f833e472d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДокументыФизическихЛиц" category="List">
+				<xr:TypeId>8d7d5b00-8e0d-49c8-b450-8c534cf9984f</xr:TypeId>
+				<xr:ValueId>6e9c4fef-f9e5-4fd2-9e02-a79cc542815c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДокументыФизическихЛиц" category="RecordSet">
+				<xr:TypeId>c73da7d1-abf6-4cb0-b870-7e2a406a7b7e</xr:TypeId>
+				<xr:ValueId>347a733f-c87a-4674-b254-510026f76c42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДокументыФизическихЛиц" category="RecordKey">
+				<xr:TypeId>ff32839c-ec3c-44bc-8c53-7bf6b9fbc4b8</xr:TypeId>
+				<xr:ValueId>5bfe3cb7-37cf-4e4a-b2a1-2a5b85ec7d52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДокументыФизическихЛиц" category="RecordManager">
+				<xr:TypeId>7379d558-56f7-426d-9bdf-8db8ad77813c</xr:TypeId>
+				<xr:ValueId>a8fcc78a-178a-46c8-98a9-86c85da6c83b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументыФизическихЛиц</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>1a4991f8-7832-4ca9-8809-88a97de88749</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<AccumulationRegister uuid="072c8b7a-378f-4ec3-81c4-f509a69a37b6">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ВзаиморасчетыССотрудниками" category="Record">
+				<xr:TypeId>d4183239-0be9-49da-96ad-90bf09043f66</xr:TypeId>
+				<xr:ValueId>1fef973f-fc85-45be-845a-d55a18a87fa6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ВзаиморасчетыССотрудниками" category="Manager">
+				<xr:TypeId>7ea427f9-e3b3-424a-8864-bf236680af8b</xr:TypeId>
+				<xr:ValueId>9215a831-9ad9-4689-83ff-458938a4fba0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ВзаиморасчетыССотрудниками" category="Selection">
+				<xr:TypeId>218bf25a-bb1d-4e8f-9b12-723e8cac10c9</xr:TypeId>
+				<xr:ValueId>a92db017-a03f-4757-bb08-77b84c53d160</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ВзаиморасчетыССотрудниками" category="List">
+				<xr:TypeId>16bbf444-4e24-427a-9e75-f6eb8c3c02c7</xr:TypeId>
+				<xr:ValueId>6ece3c90-a739-45ad-a459-2e118ac84f47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ВзаиморасчетыССотрудниками" category="RecordSet">
+				<xr:TypeId>e8da9524-a07f-40ad-8d9e-4dd050b53658</xr:TypeId>
+				<xr:ValueId>51365654-c80b-4788-9054-9476a1200b46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ВзаиморасчетыССотрудниками" category="RecordKey">
+				<xr:TypeId>25fab16f-0487-491a-8064-7e5731243571</xr:TypeId>
+				<xr:ValueId>f94377f3-3282-435a-95b8-ef338934e6de</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВзаиморасчетыССотрудниками</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>2d6ba3a1-be39-433b-ba3c-76e37cd89ccf</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f6f1e6f8-7e25-41de-85fb-0c85f7819e63">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>СуммаВзаиморасчетов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6685be85-9b81-45a3-a690-d60a3d1f01d3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="47166c0d-453f-437f-bc7b-b218a425dc85">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ГруппаНачисленияУдержанияВыплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9b8533fa-953d-404b-969f-b0ad54d2bde5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ГруппыНачисленияУдержанияВыплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="9d95f8f1-f1e3-4381-8a86-8fc8219290cf">
+				<InternalInfo>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическоеЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9cda3efa-ecf3-41f9-a03c-f4ceb6a2f056</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
