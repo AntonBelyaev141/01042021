@@ -86,10 +86,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>ExclusiveModeTerminationAtSessionStart</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>SaveUserData</name>
 			<value>true</value>
 		</right>
