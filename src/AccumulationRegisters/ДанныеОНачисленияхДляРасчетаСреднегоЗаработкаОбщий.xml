@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ДанныеОНачисленияхДляРасчетаСреднегоЗаработкаОбщий</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>9ef262eb-5618-4eb4-ad6f-192c61d2bcd6</ExtendedConfigurationObject>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>

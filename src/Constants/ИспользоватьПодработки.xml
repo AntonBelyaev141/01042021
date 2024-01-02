@@ -16,9 +16,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ИспользоватьПодработки</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>0fc8b84d-647f-4204-bd46-cf8292f099eb</ExtendedConfigurationObject>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>

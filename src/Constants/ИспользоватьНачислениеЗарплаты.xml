@@ -16,9 +16,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ИспользоватьНачислениеЗарплаты</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>73094e4f-c91e-4c8a-b697-408beb051352</ExtendedConfigurationObject>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>

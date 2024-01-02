@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>РегистрацииВНалоговомОргане</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>0169b236-52cf-4e6a-966e-2e180783b83b</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>

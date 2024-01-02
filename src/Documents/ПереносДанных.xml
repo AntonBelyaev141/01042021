@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПереносДанных</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>f93494af-5f11-463d-a689-ecf377d2ec5f</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>

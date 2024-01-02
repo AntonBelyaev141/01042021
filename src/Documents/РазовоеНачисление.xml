@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>РазовоеНачисление</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>17e66610-5cae-46d1-8718-a416c9daf9d0</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>

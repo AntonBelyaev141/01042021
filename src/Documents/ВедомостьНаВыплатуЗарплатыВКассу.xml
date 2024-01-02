@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВедомостьНаВыплатуЗарплатыВКассу</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>d76eb704-c017-4f90-8e7b-fd42223fcb0a</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
@@ -43,19 +43,18 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Зарплата</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>006afc8b-773b-48f5-9ba8-dd572c4dfc85</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="93046c42-d2fe-4e85-be3b-43429237ea0a">
-						<InternalInfo>
-						</InternalInfo>
+						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Сотрудник</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>a923a677-453f-4131-992b-7f92ae223380</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
@@ -63,12 +62,11 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="b18430f4-4fec-4eed-8f58-7e5b23afeec6">
-						<InternalInfo>
-						</InternalInfo>
+						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>КВыплате</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>2d35d898-b413-422c-8e28-b77b850a588d</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>

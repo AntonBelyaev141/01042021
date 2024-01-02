@@ -8,9 +8,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ЗначениеПоказателяРасчетаЗарплаты</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>04598264-3572-42d7-87a9-bacf23b75aed</ExtendedConfigurationObject>
 			<Type/>
 		</Properties>

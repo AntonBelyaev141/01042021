@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СпособыОкругленияПриРасчетеЗарплаты</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>d9aba78c-b369-4896-865a-14754fbcbb20</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>

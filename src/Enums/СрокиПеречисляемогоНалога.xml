@@ -16,29 +16,27 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СрокиПеречисляемогоНалога</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>fbf3c7e7-1d38-4bb0-b4c1-dcfe614ea9bd</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="bfc033e2-979e-488e-a19a-9d95880c0bcd">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>МежрасчетныеОтпускаИБольничные</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>97730b17-9cbe-4bdc-812f-0448e24eccf4</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="1c1550b5-60c2-4f65-a07e-583d6f3a59fc">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПрочиеДоходы</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>315a6052-e223-4fab-b808-4afcf50eae08</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

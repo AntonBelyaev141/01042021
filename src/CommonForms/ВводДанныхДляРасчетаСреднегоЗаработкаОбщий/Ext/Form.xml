@@ -568,10 +568,6 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<Commands>
-	</Commands>
-	<Parameters>
-	</Parameters>
 	<BaseForm version="2.15">
 		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 		<AutoTitle>false</AutoTitle>

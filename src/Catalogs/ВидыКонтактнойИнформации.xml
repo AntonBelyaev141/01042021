@@ -22,27 +22,11 @@
 				<xr:TypeId>90418c74-76e1-4f86-a642-1aaa065baf9a</xr:TypeId>
 				<xr:ValueId>f7523190-b347-4bff-ba73-13ee433b45f9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>CodeLength</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>DescriptionLength</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>CodeType</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>Predefined</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВидыКонтактнойИнформации</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>782cb93d-36e6-4923-b2b6-75caa3459cd6</ExtendedConfigurationObject>
 			<CodeLength>0</CodeLength>
 			<DescriptionLength>150</DescriptionLength>

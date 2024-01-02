@@ -22,15 +22,11 @@
 				<xr:TypeId>e1988d08-beae-4862-8c59-ddbb54268c8c</xr:TypeId>
 				<xr:ValueId>56c8b356-e4c5-4963-a164-c62fa802cf19</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>ObjectModule</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>Отпуск</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>8ad2326b-1707-4567-b03b-c186729074a1</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
@@ -192,12 +188,11 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="214f9570-6dea-4b6a-a7ec-6f4f40c60a01">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПериодРегистрации</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7d29b656-8431-4eb3-aa1c-19770b1bb6c9</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -208,12 +203,11 @@
 				</Properties>
 			</Attribute>
 			<Attribute uuid="03780165-618d-4f3d-9e45-0dfc6e01f2eb">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДатаНачалаСобытия</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>13d2a236-a877-4063-87d3-0cab96cce904</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>

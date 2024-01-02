@@ -8,9 +8,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СторнируемыйДокумент</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>56c25444-f470-4144-9738-91db3a5e837b</ExtendedConfigurationObject>
 			<Type/>
 		</Properties>

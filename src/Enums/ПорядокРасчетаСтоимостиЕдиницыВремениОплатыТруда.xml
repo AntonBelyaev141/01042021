@@ -16,39 +16,36 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>026cd14d-3893-446e-bd65-a3b997178403</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="13a2c65d-f51a-4b83-8286-babca2c1b50d">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоНормеВремениГрафикаСотрудника</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a2fa2425-cc0d-4c44-98d4-c23cf6c0b60a</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="652fe6c1-27c3-4afc-8c32-bb3a65bf0dca">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоНормеВремениПроизводственногоКалендаря</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>36695fb0-2abd-4830-a43a-3ff6134bda9e</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="9ce0dae3-a0c0-4b46-bb18-3c72cfc808fe">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоСреднегодовомуЗначению</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3c0c597d-bf0a-43a9-bedc-31855d3028a0</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="c067b4d9-6327-48e2-9b56-205cbfb01774">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтветНаЗапросФССДляРасчетаПособия" category="Object">
+				<xr:TypeId>171d7383-5a98-48ca-9462-15e05e38eea3</xr:TypeId>
+				<xr:ValueId>db95e0d1-8a69-42f4-8b21-398dd4eca58f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтветНаЗапросФССДляРасчетаПособия" category="Ref">
+				<xr:TypeId>5d66646b-ec93-4bc8-afa8-b2e956f5d82c</xr:TypeId>
+				<xr:ValueId>6b08d27a-9ff6-40d6-a31d-4304e6b9fb1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтветНаЗапросФССДляРасчетаПособия" category="Selection">
+				<xr:TypeId>494984f3-c6e6-4e32-ad67-172397050540</xr:TypeId>
+				<xr:ValueId>0c63c633-df98-4ab2-b88e-c92df01dbadd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтветНаЗапросФССДляРасчетаПособия" category="List">
+				<xr:TypeId>a348f4db-bead-456b-94d1-dc255575b6ac</xr:TypeId>
+				<xr:ValueId>0c3b7104-0269-4bbf-9cda-eabf004b310c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтветНаЗапросФССДляРасчетаПособия" category="Manager">
+				<xr:TypeId>e333feaa-ce8e-406c-af7d-4010bf81c2bc</xr:TypeId>
+				<xr:ValueId>949b7aa1-abb7-4b99-b634-e317547251b5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОтветНаЗапросФССДляРасчетаПособия</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>89634266-3eab-42ef-a143-2c8d73ec6a3c</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

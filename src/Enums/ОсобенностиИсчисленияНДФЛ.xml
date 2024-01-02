@@ -16,29 +16,27 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ОсобенностиИсчисленияНДФЛ</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>bf866680-48c5-47de-a304-711270e26935</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="e2d9aa89-2bcd-4387-8f72-f35be8589ce8">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СтандартныеВычетыНарастающимИтогом</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>72c7c35c-6865-4c6c-8fb1-32f1267ce453</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="02e35f96-3a9e-4fdc-be23-5b2dabf9a001">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СтандартныеВычетыВПределахМесячногоДохода</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>6dffc0ae-e091-4d49-80b9-80a9d451a493</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

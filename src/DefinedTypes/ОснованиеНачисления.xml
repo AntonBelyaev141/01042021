@@ -8,9 +8,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ОснованиеНачисления</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>7ca79a5e-cc49-4b1c-a4a0-f655c47a002e</ExtendedConfigurationObject>
 			<Type/>
 		</Properties>

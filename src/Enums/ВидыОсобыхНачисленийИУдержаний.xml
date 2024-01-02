@@ -16,19 +16,18 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВидыОсобыхНачисленийИУдержаний</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>5955eb57-3433-4811-beac-9b5758274aa4</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="c9ff3c72-a935-41e7-a698-f7476628d532">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НДФЛ</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d81b1c0a-ecb8-4e8d-982c-6032ed88557c</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

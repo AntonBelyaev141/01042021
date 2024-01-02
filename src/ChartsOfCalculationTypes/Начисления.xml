@@ -46,15 +46,11 @@
 				<xr:TypeId>31a2fb42-2c15-47af-8ab0-6aedee5814d6</xr:TypeId>
 				<xr:ValueId>f1a14012-880e-4d05-beff-840303168e90</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>DefaultChoiceForm</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>Начисления</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>be08c831-b5a8-4e28-b13c-26875635a7f1</ExtendedConfigurationObject>
 			<DefaultChoiceForm>ChartOfCalculationTypes.Начисления.Form.АБ_ФормаВыбора</DefaultChoiceForm>
 		</Properties>

@@ -32,19 +32,18 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>Удержания</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>03ccda6c-33a9-4c9e-9f21-27fc6dd07aaf</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="dd741ee3-518f-4452-8d1c-36194f22a506">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Результат</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>6b9775dd-5599-452f-a217-6feeeea98a3f</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -57,12 +56,11 @@
 				</Properties>
 			</Resource>
 			<Dimension uuid="f605174f-0b87-4c58-bfe6-bf815c75096f">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФизическоеЛицо</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>5040b3e6-4107-41b5-851a-8c7996925ec2</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>

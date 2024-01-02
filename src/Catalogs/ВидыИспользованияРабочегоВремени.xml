@@ -22,27 +22,11 @@
 				<xr:TypeId>96ee0e86-f3fa-400f-be31-c0e1f04ddc4c</xr:TypeId>
 				<xr:ValueId>62f6891c-6c07-48e2-8948-768b77dce6ce</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>CodeLength</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>DescriptionLength</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>CodeType</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>Predefined</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВидыИспользованияРабочегоВремени</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>f1ae8166-42dc-403e-ade4-33ff8c5ffa11</ExtendedConfigurationObject>
 			<CodeLength>0</CodeLength>
 			<DescriptionLength>50</DescriptionLength>

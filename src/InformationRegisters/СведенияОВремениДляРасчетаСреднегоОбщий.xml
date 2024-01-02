@@ -32,21 +32,20 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СведенияОВремениДляРасчетаСреднегоОбщий</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>6fff3a00-399a-4714-9814-eba0b0b1ee18</ExtendedConfigurationObject>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
 		</Properties>
 		<ChildObjects>
 			<Dimension uuid="7915fa7b-01c9-45f7-a5ea-2f52bcb4f66e">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Сотрудник</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a15fd4d2-b295-40e1-9142-f263337e28d0</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
@@ -54,12 +53,11 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="d06c7d9d-bf4e-4346-a5d7-736cc9140662">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Месяц</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9e722598-d506-4496-8f79-f397c1cdf3d9</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -70,12 +68,11 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="863db4be-669c-4d3d-912d-55edf8590e89">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПорядокРасчета</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2cc1c15c-4a7d-444e-b61e-51e06863f2ba</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ПорядокРасчетаСреднегоЗаработкаОбщий</v8:Type>

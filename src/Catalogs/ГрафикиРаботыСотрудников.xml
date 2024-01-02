@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ГрафикиРаботыСотрудников</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>a0ee524d-89c5-4b2b-b1df-88f9c84a7e28</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>
