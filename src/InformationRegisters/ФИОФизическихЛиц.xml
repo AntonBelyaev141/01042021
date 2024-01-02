@@ -32,9 +32,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ФИОФизическихЛиц</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>7ba2af46-4080-4732-9b50-8150e77cef79</ExtendedConfigurationObject>
 			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>

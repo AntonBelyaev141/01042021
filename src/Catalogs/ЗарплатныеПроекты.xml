@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ЗарплатныеПроекты</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>d1d8f71f-e632-4129-97c3-1229d712abfa</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>

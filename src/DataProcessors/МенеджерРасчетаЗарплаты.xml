@@ -10,19 +10,11 @@
 				<xr:TypeId>d6d87b04-d818-4a7c-aa45-b80700aca2c6</xr:TypeId>
 				<xr:ValueId>fc141e82-bec8-4169-aded-3afa31e3d927</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>ObjectModule</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
-			<xr:PropertyState>
-				<xr:Property>ManagerModule</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>МенеджерРасчетаЗарплаты</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>4aa5e8e3-94b0-43c4-b056-140dec02f7cb</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>

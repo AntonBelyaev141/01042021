@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СведенияОДоходахНДФЛ</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>d3bcf9bd-8d8a-42ef-82ae-a1ac829b5e35</ExtendedConfigurationObject>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>

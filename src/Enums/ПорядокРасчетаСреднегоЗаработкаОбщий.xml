@@ -16,9 +16,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПорядокРасчетаСреднегоЗаработкаОбщий</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>5f818e36-756e-4e93-a834-5c16d3240e66</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>

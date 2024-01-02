@@ -28,20 +28,19 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВзаиморасчетыССотрудниками</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>2d6ba3a1-be39-433b-ba3c-76e37cd89ccf</ExtendedConfigurationObject>
 			<RegisterType>Balance</RegisterType>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="f6f1e6f8-7e25-41de-85fb-0c85f7819e63">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СуммаВзаиморасчетов</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>6685be85-9b81-45a3-a690-d60a3d1f01d3</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -54,12 +53,11 @@
 				</Properties>
 			</Resource>
 			<Attribute uuid="47166c0d-453f-437f-bc7b-b218a425dc85">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ГруппаНачисленияУдержанияВыплаты</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9b8533fa-953d-404b-969f-b0ad54d2bde5</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ГруппыНачисленияУдержанияВыплаты</v8:Type>
@@ -67,12 +65,11 @@
 				</Properties>
 			</Attribute>
 			<Dimension uuid="9d95f8f1-f1e3-4381-8a86-8fc8219290cf">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФизическоеЛицо</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>9cda3efa-ecf3-41f9-a03c-f4ceb6a2f056</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>

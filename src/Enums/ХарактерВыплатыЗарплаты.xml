@@ -16,39 +16,36 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ХарактерВыплатыЗарплаты</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>fefca275-ded6-4f1a-b4cb-05f7d831f25d</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="1c632ce8-03bb-4dec-84c5-687b3a9ff2e8">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Зарплата</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f036668b-4239-46cc-8cea-26a3252a7891</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="db27e190-2c25-4cd4-9105-96c1a22c42ef">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Аванс</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b238960e-5d60-458f-ad17-dfc84e55d4aa</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a5d6a391-9be3-444d-bef6-5aa1ad2f1c4d">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Межрасчет</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2b579854-c176-4e23-b666-41f5a9057feb</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

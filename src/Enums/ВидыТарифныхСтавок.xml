@@ -16,39 +16,36 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВидыТарифныхСтавок</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>17228a49-ce45-48d8-95e6-efbaa0d3dcc2</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="3aba1495-9167-49c1-889f-df3e3d35e17b">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>МесячнаяТарифнаяСтавка</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a4416cfb-2cfc-4363-93ac-94b35a33f569</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8acae432-5adb-4962-ad99-f8cf5126e59e">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЧасоваяТарифнаяСтавка</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3fa9a47f-9fce-4a26-bd9d-d960a09526c8</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6740098f-3dcc-4e31-86e9-2aadbde5a494">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ДневнаяТарифнаяСтавка</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>2ad58f7e-4511-48d8-8a2c-eba46216a9d0</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

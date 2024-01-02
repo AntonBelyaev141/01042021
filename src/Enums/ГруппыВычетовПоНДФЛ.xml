@@ -16,59 +16,54 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ГруппыВычетовПоНДФЛ</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>11d589e5-6a05-474f-b2d4-b1738a598979</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="baa49c5e-2595-4487-95c7-91eb5acff35c">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Стандартные</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>29be5287-9a9d-4d65-ba06-b799135d1c9b</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="e6ca1009-476b-4005-8558-25fcbcd292c5">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СтандартныеНаДетей</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>46102b5f-0e6d-4075-9e63-989fda98f602</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4ff0468b-4cb0-4ba8-b37d-443ddb070a7d">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Имущественные</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>0f74aaeb-7d75-42e3-ab19-5643e1dc6dcd</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="cf54f090-b169-4191-8052-d4ec210ea074">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Социальные</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>3b508059-1778-48da-806a-80c21e385549</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="d5537a14-5db0-4492-83ac-7ed0456712fb">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>СоциальныеПоУведомлениюНО</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>19cca49e-6086-4b6f-a9ff-837b1cbd2fd8</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

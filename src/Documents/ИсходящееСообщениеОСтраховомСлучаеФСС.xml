@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Document uuid="4fb45b49-46d0-4568-9fe5-d9e0aea7bae9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИсходящееСообщениеОСтраховомСлучаеФСС" category="Object">
+				<xr:TypeId>0808c81a-5c91-48f6-a0a0-9a60bbfea04b</xr:TypeId>
+				<xr:ValueId>a5995657-8c88-4966-9e80-736419bfdb0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИсходящееСообщениеОСтраховомСлучаеФСС" category="Ref">
+				<xr:TypeId>9c0066da-bfe2-437f-85ce-b6262f95bb8b</xr:TypeId>
+				<xr:ValueId>c638f2da-de27-465d-b077-87b59f1b26a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИсходящееСообщениеОСтраховомСлучаеФСС" category="Selection">
+				<xr:TypeId>7b8a84a0-1068-491b-9c34-d66a0fd96467</xr:TypeId>
+				<xr:ValueId>4fe80131-61ea-46bc-83a0-329c5edd79b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИсходящееСообщениеОСтраховомСлучаеФСС" category="List">
+				<xr:TypeId>f8d0a1d2-1844-4836-81d0-53cb23bb6de0</xr:TypeId>
+				<xr:ValueId>8b5cbe0f-621d-4f58-b6ec-26e9c14d7830</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИсходящееСообщениеОСтраховомСлучаеФСС" category="Manager">
+				<xr:TypeId>ac5ed414-92cd-4a91-849d-cd98b1120fc5</xr:TypeId>
+				<xr:ValueId>b3f00348-297d-4d9f-b4c4-864629d39d70</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсходящееСообщениеОСтраховомСлучаеФСС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>622ea0a4-f880-446b-a2eb-b330d6379d20</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

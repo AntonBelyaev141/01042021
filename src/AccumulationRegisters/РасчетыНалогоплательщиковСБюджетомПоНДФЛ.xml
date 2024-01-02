@@ -28,9 +28,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>РасчетыНалогоплательщиковСБюджетомПоНДФЛ</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>0cead18e-318e-496f-b798-cb85b9956853</ExtendedConfigurationObject>
 			<RegisterType>Balance</RegisterType>
 		</Properties>

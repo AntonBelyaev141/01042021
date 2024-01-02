@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>УдалитьВидыДоходовНДФЛ</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>e96c6603-1e8f-4cb8-ab43-cb376b82c086</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects/>

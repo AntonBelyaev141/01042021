@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<CommandBarLocation>None</CommandBarLocation>
-	<AutoTime>CurrentOrLast</AutoTime>
-	<UsePostingMode>Auto</UsePostingMode>
-	<RepostOnWrite>false</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer" callType="After">АБ_ПриСозданииНаСервереПосле</Event>
@@ -431,36 +428,28 @@
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<Width>11</Width>
 							<ContextMenu name="ИтогНачисленоКонтекстноеМеню" id="594"/>
-							<ExtendedTooltip name="ИтогНачисленоРасширеннаяПодсказка" id="595">
-								<Font ref="0" kind="AutoFont"/>
-							</ExtendedTooltip>
+							<ExtendedTooltip name="ИтогНачисленоРасширеннаяПодсказка" id="595"/>
 						</InputField>
 						<InputField name="ИтогНачисленоПерерасчет" id="792">
 							<ReadOnly>true</ReadOnly>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<Width>11</Width>
 							<ContextMenu name="ИтогНачисленоПерерасчетКонтекстноеМеню" id="793"/>
-							<ExtendedTooltip name="ИтогНачисленоПерерасчетРасширеннаяПодсказка" id="794">
-								<Font ref="0" kind="AutoFont"/>
-							</ExtendedTooltip>
+							<ExtendedTooltip name="ИтогНачисленоПерерасчетРасширеннаяПодсказка" id="794"/>
 						</InputField>
 						<InputField name="ИтогУдержано" id="596">
 							<ReadOnly>true</ReadOnly>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<Width>11</Width>
 							<ContextMenu name="ИтогУдержаноКонтекстноеМеню" id="597"/>
-							<ExtendedTooltip name="ИтогУдержаноРасширеннаяПодсказка" id="598">
-								<Font ref="0" kind="AutoFont"/>
-							</ExtendedTooltip>
+							<ExtendedTooltip name="ИтогУдержаноРасширеннаяПодсказка" id="598"/>
 						</InputField>
 						<InputField name="ИтогВзносы" id="599">
 							<ReadOnly>true</ReadOnly>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
 							<Width>11</Width>
 							<ContextMenu name="ИтогВзносыКонтекстноеМеню" id="600"/>
-							<ExtendedTooltip name="ИтогВзносыРасширеннаяПодсказка" id="601">
-								<Font ref="0" kind="AutoFont"/>
-							</ExtendedTooltip>
+							<ExtendedTooltip name="ИтогВзносыРасширеннаяПодсказка" id="601"/>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
@@ -1000,10 +989,10 @@
 											<ContextMenu name="ПособияРезультатКонтекстноеМеню" id="421"/>
 											<ExtendedTooltip name="ПособияРезультатExtendedTooltip" id="522"/>
 										</InputField>
-										<InputField name="ПособияРезультатВТомЧислеЗаСчетФБ" id="1508">
+										<InputField name="ПособияРезультатВТомЧислеЗаСчетФБ" id="422">
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПособияРезультатВТомЧислеЗаСчетФБКонтекстноеМеню" id="1511"/>
-											<ExtendedTooltip name="ПособияРезультатВТомЧислеЗаСчетФБРасширеннаяПодсказка" id="1512"/>
+											<ExtendedTooltip name="ПособияРезультатВТомЧислеЗаСчетФБРасширеннаяПодсказка" id="523"/>
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>
@@ -1964,11 +1953,11 @@
 									<ContextMenu name="ПогашениеЗаймовНомерСтрокиКонтекстноеМеню" id="247"/>
 									<ExtendedTooltip name="ПогашениеЗаймовНомерСтрокиExtendedTooltip" id="558"/>
 								</LabelField>
-								<InputField name="ПогашениеЗаймовФизическоеЛицо" id="1505">
+								<InputField name="ПогашениеЗаймовФизическоеЛицо" id="248">
 									<ContextMenu name="ПогашениеЗаймовФизическоеЛицоКонтекстноеМеню" id="1513"/>
-									<ExtendedTooltip name="ПогашениеЗаймовФизическоеЛицоРасширеннаяПодсказка" id="1514"/>
+									<ExtendedTooltip name="ПогашениеЗаймовФизическоеЛицоРасширеннаяПодсказка" id="559"/>
 								</InputField>
-								<InputField name="ПогашениеЗаймовПогашениеЗайма" id="1496">
+								<InputField name="ПогашениеЗаймовПогашениеЗайма" id="256">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1978,7 +1967,7 @@
 									<EditMode>EnterOnInput</EditMode>
 									<Width>15</Width>
 									<ContextMenu name="ПогашениеЗаймовПогашениеЗаймаКонтекстноеМеню" id="1515"/>
-									<ExtendedTooltip name="ПогашениеЗаймовПогашениеЗаймаРасширеннаяПодсказка" id="1516"/>
+									<ExtendedTooltip name="ПогашениеЗаймовПогашениеЗаймаРасширеннаяПодсказка" id="563"/>
 								</InputField>
 								<InputField name="ПогашениеЗаймовНачисленоПроцентов" id="252">
 									<Title>
@@ -1992,7 +1981,7 @@
 									<ContextMenu name="ПогашениеЗаймовНачисленоПроцентовКонтекстноеМеню" id="253"/>
 									<ExtendedTooltip name="ПогашениеЗаймовНачисленоПроцентовExtendedTooltip" id="561"/>
 								</InputField>
-								<InputField name="ПогашениеЗаймовПогашениеПроцентов" id="1499">
+								<InputField name="ПогашениеЗаймовПогашениеПроцентов" id="254">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2002,7 +1991,7 @@
 									<EditMode>EnterOnInput</EditMode>
 									<Width>11</Width>
 									<ContextMenu name="ПогашениеЗаймовПогашениеПроцентовКонтекстноеМеню" id="1517"/>
-									<ExtendedTooltip name="ПогашениеЗаймовПогашениеПроцентовРасширеннаяПодсказка" id="1518"/>
+									<ExtendedTooltip name="ПогашениеЗаймовПогашениеПроцентовРасширеннаяПодсказка" id="562"/>
 								</InputField>
 								<InputField name="ПогашениеЗаймовМатериальнаяВыгода" id="258">
 									<Title>
@@ -2033,9 +2022,9 @@
 									<ContextMenu name="ПогашениеЗаймовДоговорЗаймаКонтекстноеМеню" id="251"/>
 									<ExtendedTooltip name="ПогашениеЗаймовДоговорЗаймаExtendedTooltip" id="560"/>
 								</InputField>
-								<InputField name="ПогашениеЗаймовПодразделение" id="1502">
+								<InputField name="ПогашениеЗаймовПодразделение" id="264">
 									<ContextMenu name="ПогашениеЗаймовПодразделениеКонтекстноеМеню" id="1519"/>
-									<ExtendedTooltip name="ПогашениеЗаймовПодразделениеРасширеннаяПодсказка" id="1520"/>
+									<ExtendedTooltip name="ПогашениеЗаймовПодразделениеРасширеннаяПодсказка" id="566"/>
 								</InputField>
 							</ChildItems>
 						</Table>
@@ -3539,10 +3528,6 @@
 			</dcsset:item>
 		</ConditionalAppearance>
 	</Attributes>
-	<Commands>
-	</Commands>
-	<Parameters>
-	</Parameters>
 	<BaseForm version="2.15">
 		<CommandBarLocation>None</CommandBarLocation>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
@@ -3952,36 +3937,28 @@
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<Width>11</Width>
 								<ContextMenu name="ИтогНачисленоКонтекстноеМеню" id="594"/>
-								<ExtendedTooltip name="ИтогНачисленоРасширеннаяПодсказка" id="595">
-									<Font ref="0" kind="AutoFont"/>
-								</ExtendedTooltip>
+								<ExtendedTooltip name="ИтогНачисленоРасширеннаяПодсказка" id="595"/>
 							</InputField>
 							<InputField name="ИтогНачисленоПерерасчет" id="792">
 								<ReadOnly>true</ReadOnly>
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<Width>11</Width>
 								<ContextMenu name="ИтогНачисленоПерерасчетКонтекстноеМеню" id="793"/>
-								<ExtendedTooltip name="ИтогНачисленоПерерасчетРасширеннаяПодсказка" id="794">
-									<Font ref="0" kind="AutoFont"/>
-								</ExtendedTooltip>
+								<ExtendedTooltip name="ИтогНачисленоПерерасчетРасширеннаяПодсказка" id="794"/>
 							</InputField>
 							<InputField name="ИтогУдержано" id="596">
 								<ReadOnly>true</ReadOnly>
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<Width>11</Width>
 								<ContextMenu name="ИтогУдержаноКонтекстноеМеню" id="597"/>
-								<ExtendedTooltip name="ИтогУдержаноРасширеннаяПодсказка" id="598">
-									<Font ref="0" kind="AutoFont"/>
-								</ExtendedTooltip>
+								<ExtendedTooltip name="ИтогУдержаноРасширеннаяПодсказка" id="598"/>
 							</InputField>
 							<InputField name="ИтогВзносы" id="599">
 								<ReadOnly>true</ReadOnly>
 								<ToolTipRepresentation>Button</ToolTipRepresentation>
 								<Width>11</Width>
 								<ContextMenu name="ИтогВзносыКонтекстноеМеню" id="600"/>
-								<ExtendedTooltip name="ИтогВзносыРасширеннаяПодсказка" id="601">
-									<Font ref="0" kind="AutoFont"/>
-								</ExtendedTooltip>
+								<ExtendedTooltip name="ИтогВзносыРасширеннаяПодсказка" id="601"/>
 							</InputField>
 						</ChildItems>
 					</UsualGroup>

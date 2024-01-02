@@ -16,49 +16,45 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВидыОграниченияПособия</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>c894d509-0696-41c8-9134-5d65db0867fa</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="6a7c7cdd-fdce-46ea-a97e-19a9a9cfae34">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбщееОграничение</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>710be9e9-6eab-4593-aa81-7f8713d9c08c</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="55e2b242-ebaf-462a-a271-3d8b8ed6f978">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОграничениеВРазмереММОТ</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>d1369b92-a448-4ea1-b51c-32c85480c850</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="99dd0918-62dd-40e5-a759-d99f0d94501f">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>БезОграничений</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f9ffe9ab-c323-49df-a040-2aa289c601c8</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="56c43e05-b306-4b57-96dc-656559a12cf6">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>МаксимальныйРазмерЕжемесячнойСтраховойВыплаты</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>ff9d0b80-147d-4c8b-b03f-b5245b72a47c</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

@@ -16,99 +16,90 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ПричиныНетрудоспособности</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>4bc13407-0a2d-4720-bd66-29378c704ed3</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="57a848e9-e2ab-4d18-bd57-a512660979b0">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ОбщееЗаболевание</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>fe1e80e6-6f87-47d9-869f-6beca435fe7c</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8af2e8dd-fd21-42c2-af0b-6cb1d1de7041">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Профзаболевание</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>0cf1a902-ae90-4f8e-b590-0fd069423f04</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4c46b904-b268-4e92-80e3-31e65c151dd5">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ТравмаНаПроизводстве</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>b4332e02-a5e7-47e4-bd98-0b798dda9f1f</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="58a614d5-1c09-4f53-9fba-adc261240fec">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Карантин</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>642c9472-fcbf-475d-a4b0-a0c0fd6bac2c</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="6ca2ee58-3cab-43eb-9919-2cf70366e252">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоБеременностиИРодам</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f5fb2ea7-c07e-4b62-880e-813bfc669d21</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="93d98b31-058f-481a-87c0-7bbd826e60a1">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Протезирование</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>0d0074df-74f0-4c2d-8c1a-8a4cec517a9d</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a9322423-e6b7-4ea1-8658-68297106c1cd">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПособиеПриДолечивании</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>cb2af6e0-c938-42cd-a89a-145b4313709e</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="a403885b-691b-49e2-b3d7-a976e6814618">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоУходуЗаВзрослым</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f420537c-4f74-45ef-8970-74e3861b72d8</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="8db434b2-a674-4ac3-9fc7-7e8f009a7b8a">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПоУходуЗаРебенком</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e58a38af-19cc-440d-bf24-e9c1d08ec876</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

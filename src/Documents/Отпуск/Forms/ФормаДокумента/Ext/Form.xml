@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<AutoTime>CurrentOrLast</AutoTime>
-	<UsePostingMode>Auto</UsePostingMode>
-	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -2473,7 +2470,7 @@
 				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ПервичныйДокументГруппа" id="1381">
+		<UsualGroup name="ПервичныйДокументГруппа" id="1396">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2490,9 +2487,9 @@
 			</CollapsedRepresentationTitle>
 			<Collapsed>true</Collapsed>
 			<Representation>None</Representation>
-			<ExtendedTooltip name="ПервичныйДокументГруппаРасширеннаяПодсказка" id="1382"/>
+			<ExtendedTooltip name="ПервичныйДокументГруппаРасширеннаяПодсказка" id="1397"/>
 			<ChildItems>
-				<InputField name="НаименованиеПервичногоДокумента" id="1383">
+				<InputField name="НаименованиеПервичногоДокумента" id="1398">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2501,9 +2498,9 @@
 					</Title>
 					<ChoiceButton>true</ChoiceButton>
 					<ContextMenu name="НаименованиеПервичногоДокументаКонтекстноеМеню" id="1399"/>
-					<ExtendedTooltip name="НаименованиеПервичногоДокументаРасширеннаяПодсказка" id="1385"/>
+					<ExtendedTooltip name="НаименованиеПервичногоДокументаРасширеннаяПодсказка" id="1400"/>
 				</InputField>
-				<InputField name="ДатаПервичногоДокумента" id="1386">
+				<InputField name="ДатаПервичногоДокумента" id="1401">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2518,9 +2515,9 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</ChoiceButtonPicture>
 					<ContextMenu name="ДатаПервичногоДокументаКонтекстноеМеню" id="1402"/>
-					<ExtendedTooltip name="ДатаПервичногоДокументаРасширеннаяПодсказка" id="1388"/>
+					<ExtendedTooltip name="ДатаПервичногоДокументаРасширеннаяПодсказка" id="1403"/>
 				</InputField>
-				<InputField name="НомерПервичногоДокумента" id="1389">
+				<InputField name="НомерПервичногоДокумента" id="1404">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2934,8 +2931,6 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<Parameters>
-	</Parameters>
 	<BaseForm version="2.15">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>

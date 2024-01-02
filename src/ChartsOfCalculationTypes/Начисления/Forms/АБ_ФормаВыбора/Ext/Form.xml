@@ -42,9 +42,9 @@
 			<TopLevelParent xsi:nil="true"/>
 			<ShowRoot>true</ShowRoot>
 			<AllowRootChoice>false</AllowRootChoice>
-			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
 				<Autofill>false</Autofill>

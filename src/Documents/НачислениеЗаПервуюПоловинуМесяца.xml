@@ -22,15 +22,11 @@
 				<xr:TypeId>38643025-e4cc-4aa0-a2e6-924100c8bb75</xr:TypeId>
 				<xr:ValueId>2198c8d0-fb76-4cb4-a4b6-1237b1836a4d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>ManagerModule</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>НачислениеЗаПервуюПоловинуМесяца</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>1a62a3cf-e0be-4763-95ea-4d691293a1e0</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>

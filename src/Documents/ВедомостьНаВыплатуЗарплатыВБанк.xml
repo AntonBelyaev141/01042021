@@ -22,26 +22,21 @@
 				<xr:TypeId>5aa611ee-74f2-4394-9d01-accc285434f6</xr:TypeId>
 				<xr:ValueId>36eedc0c-6ffb-461b-894a-8460fdf7fcf8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:PropertyState>
-				<xr:Property>ObjectModule</xr:Property>
-				<xr:State>Extended</xr:State>
-			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>ВедомостьНаВыплатуЗарплатыВБанк</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>d7618923-a1ec-4a06-b44f-02c7f7bd46b6</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
 			<Attribute uuid="7f9d75e4-dae2-40f2-b0ad-ecb5e9ad331f">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ЗарплатныйПроект</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>36ecab94-ef4d-486a-beb3-ed1f7d061dfe</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ЗарплатныеПроекты</v8:Type>
@@ -60,19 +55,18 @@
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Зарплата</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7edc8670-0d8b-4e8d-a0d5-81a1eb17a759</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
 					<Attribute uuid="fbbe9f91-5ba9-4369-adb8-b1bea2f7cd9e">
-						<InternalInfo>
-						</InternalInfo>
+						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>Сотрудник</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>a2d8bcd6-ff35-49e0-9b07-0ac341c69e0d</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
@@ -80,12 +74,11 @@
 						</Properties>
 					</Attribute>
 					<Attribute uuid="7f3be9cd-5b3e-40ef-bdd3-a970d4a9deca">
-						<InternalInfo>
-						</InternalInfo>
+						<InternalInfo/>
 						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Name>КВыплате</Name>
 							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>f9b64d4a-35b2-4d4f-ab69-e7a35125bf2b</ExtendedConfigurationObject>
 							<Type>
 								<v8:Type>xs:decimal</v8:Type>

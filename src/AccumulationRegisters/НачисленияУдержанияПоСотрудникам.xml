@@ -28,20 +28,19 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>НачисленияУдержанияПоСотрудникам</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>3255479a-7a6e-4c99-98b5-70a9215f9a24</ExtendedConfigurationObject>
 			<RegisterType>Turnovers</RegisterType>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="6bfe5244-f49d-4506-b460-2bdc7e0eb67f">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>Сумма</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>a349d6bf-291a-47bf-a866-641daa7f0357</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -54,12 +53,11 @@
 				</Properties>
 			</Resource>
 			<Attribute uuid="eefd29e6-5dbb-4b8c-acd8-5d0548696cd6">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ГруппаНачисленияУдержанияВыплаты</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>f01cb514-3f19-4975-9414-1bb3a37a27e0</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:EnumRef.ГруппыНачисленияУдержанияВыплаты</v8:Type>
@@ -67,12 +65,11 @@
 				</Properties>
 			</Attribute>
 			<Dimension uuid="5b450d70-9c4f-4ce7-be9e-8d388bb8435a">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФизическоеЛицо</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>ebabd84b-6e8e-4e4a-807f-9cd364e22c96</ExtendedConfigurationObject>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
@@ -80,12 +77,11 @@
 				</Properties>
 			</Dimension>
 			<Dimension uuid="f2a0fe15-15e5-4e41-995b-afa603e3e407">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>НачислениеУдержание</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>70bbbb1d-18bb-46a0-b41e-5cc6f71f1731</ExtendedConfigurationObject>
 					<Type>
 						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>

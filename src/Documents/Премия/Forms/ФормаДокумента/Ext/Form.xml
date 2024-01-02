@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<AutoTime>CurrentOrLast</AutoTime>
-	<UsePostingMode>Auto</UsePostingMode>
-	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -942,7 +939,6 @@
 							<Group>Vertical</Group>
 							<Behavior>Usual</Behavior>
 							<Representation>NormalSeparation</Representation>
-							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="НастройкаБухучетаРасширеннаяПодсказка" id="243"/>
 							<ChildItems>
 								<RadioButtonField name="ВариантУказанияБухучета" id="1265">
@@ -985,7 +981,7 @@
 									<ContextMenu name="ВариантУказанияБухучетаКонтекстноеМеню" id="1266"/>
 									<ExtendedTooltip name="ВариантУказанияБухучетаРасширеннаяПодсказка" id="1267"/>
 								</RadioButtonField>
-								<Pages name="СтраницыБухучет" id="1283">
+								<Pages name="СтраницыБухучет" id="1259">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -993,7 +989,7 @@
 										</v8:item>
 									</Title>
 									<PagesRepresentation>None</PagesRepresentation>
-									<ExtendedTooltip name="СтраницыБухучетРасширеннаяПодсказка" id="1285"/>
+									<ExtendedTooltip name="СтраницыБухучетРасширеннаяПодсказка" id="1260"/>
 									<ChildItems>
 										<Page name="СтраницаБухучет" id="1261">
 											<Title>
@@ -1346,7 +1342,7 @@
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="1102"/>
 		</UsualGroup>
-		<UsualGroup name="ПервичныйДокументГруппа" id="1259">
+		<UsualGroup name="ПервичныйДокументГруппа" id="1274">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1363,9 +1359,9 @@
 			</CollapsedRepresentationTitle>
 			<Collapsed>true</Collapsed>
 			<Representation>None</Representation>
-			<ExtendedTooltip name="ПервичныйДокументГруппаРасширеннаяПодсказка" id="1260"/>
+			<ExtendedTooltip name="ПервичныйДокументГруппаРасширеннаяПодсказка" id="1275"/>
 			<ChildItems>
-				<InputField name="НаименованиеПервичногоДокумента" id="1261">
+				<InputField name="НаименованиеПервичногоДокумента" id="1276">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1374,9 +1370,9 @@
 					</Title>
 					<ChoiceButton>true</ChoiceButton>
 					<ContextMenu name="НаименованиеПервичногоДокументаКонтекстноеМеню" id="1277"/>
-					<ExtendedTooltip name="НаименованиеПервичногоДокументаРасширеннаяПодсказка" id="1263"/>
+					<ExtendedTooltip name="НаименованиеПервичногоДокументаРасширеннаяПодсказка" id="1278"/>
 				</InputField>
-				<InputField name="ДатаПервичногоДокумента" id="1264">
+				<InputField name="ДатаПервичногоДокумента" id="1279">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1391,9 +1387,9 @@
 						<xr:LoadTransparent>true</xr:LoadTransparent>
 					</ChoiceButtonPicture>
 					<ContextMenu name="ДатаПервичногоДокументаКонтекстноеМеню" id="1280"/>
-					<ExtendedTooltip name="ДатаПервичногоДокументаРасширеннаяПодсказка" id="1266"/>
+					<ExtendedTooltip name="ДатаПервичногоДокументаРасширеннаяПодсказка" id="1281"/>
 				</InputField>
-				<InputField name="НомерПервичногоДокумента" id="1267">
+				<InputField name="НомерПервичногоДокумента" id="1282">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1435,10 +1431,7 @@
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
-	<Attributes>
-	</Attributes>
-	<Commands>
-	</Commands>
+	<Attributes/>
 	<BaseForm version="2.15">
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>

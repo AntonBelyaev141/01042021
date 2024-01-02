@@ -16,39 +16,36 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СпособыРасчетаАванса</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>f7417e62-fe98-4e00-832d-a5d7905b3c6a</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<EnumValue uuid="ebc6b1a6-d121-4f06-9123-3e776d024cb7">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ФиксированнойСуммой</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>7e34acd8-d086-4d29-8b7a-8b449a9bc921</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="fd102dee-60e2-4a2e-bde9-ad475115c3c6">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>ПроцентомОтТарифа</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>446f341d-8e75-4a6c-b884-5bfff1ea41d6</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="020ded8a-32f0-4e41-b25e-88beda09a6d9">
-				<InternalInfo>
-				</InternalInfo>
+				<InternalInfo/>
 				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Name>РасчетомЗаПервуюПоловинуМесяца</Name>
 					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
 					<ExtendedConfigurationObject>e7506535-6d5c-4c54-910f-265bd02a5b91</ExtendedConfigurationObject>
 				</Properties>
 			</EnumValue>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<InformationRegister uuid="8e4f8a87-1ca7-4eda-80de-efb06a2ef476">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СообщенияФССОбИзмененииСостоянийЭЛН" category="Record">
+				<xr:TypeId>9f9da97d-4e6a-45e8-ba5b-3eec3b439737</xr:TypeId>
+				<xr:ValueId>4b2b9fd4-1557-4d38-91c3-ecbae0c6bd43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СообщенияФССОбИзмененииСостоянийЭЛН" category="Manager">
+				<xr:TypeId>3c030471-fa52-4dd1-8a23-8dcb119318bc</xr:TypeId>
+				<xr:ValueId>b9d91f69-36d7-4262-ae08-a7f5422ba04d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СообщенияФССОбИзмененииСостоянийЭЛН" category="Selection">
+				<xr:TypeId>e6d6980f-2a64-44b7-9799-e55a6bf8a1fb</xr:TypeId>
+				<xr:ValueId>afa204ca-4bbc-4730-9fe1-11c8a4e4dc86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СообщенияФССОбИзмененииСостоянийЭЛН" category="List">
+				<xr:TypeId>93ce9def-ce1e-4086-a52a-6333679d7661</xr:TypeId>
+				<xr:ValueId>479efea1-1f8c-425b-9d46-8f0f82c9040b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СообщенияФССОбИзмененииСостоянийЭЛН" category="RecordSet">
+				<xr:TypeId>8344224d-a058-4095-adb0-0330062d99ad</xr:TypeId>
+				<xr:ValueId>6eaefb55-bda5-42ea-b401-1691b0b70be8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СообщенияФССОбИзмененииСостоянийЭЛН" category="RecordKey">
+				<xr:TypeId>563cd812-37f6-458d-b6b6-5cec06864f76</xr:TypeId>
+				<xr:ValueId>cfff6b84-8d32-4db7-b9ea-d6cb2b9ef402</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СообщенияФССОбИзмененииСостоянийЭЛН" category="RecordManager">
+				<xr:TypeId>e7109aed-e7e4-4881-8250-c85235e4d36b</xr:TypeId>
+				<xr:ValueId>b8e0ce8c-6120-4e77-b435-4de00f513657</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СообщенияФССОбИзмененииСостоянийЭЛН</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ac809efd-7430-42b8-bc01-58f6ed033964</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="ff8219c0-4a15-4416-b35f-c28119d5b405">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СообщенияФССОбИзмененииЭЛН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1bc1516b-d0d6-4b94-a198-a059f2eb6749</ExtendedConfigurationObject>
+					<Group>NavigationPanelOrdinary</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

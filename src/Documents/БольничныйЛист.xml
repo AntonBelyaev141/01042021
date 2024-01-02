@@ -24,9 +24,9 @@
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>БольничныйЛист</Name>
 			<Comment/>
-			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>0cc942d0-7925-437e-88d3-ab7c24b32ede</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
@@ -110,6 +110,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
