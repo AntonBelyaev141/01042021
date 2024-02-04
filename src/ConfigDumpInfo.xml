@@ -104,20 +104,20 @@
 		<Metadata name="CommonForm.ВводДанныхДляРасчетаСреднегоЗаработкаОбщий.Form" id="06ead9d0-9966-4637-9cd6-8f47b00269ac.0" configVersion="e725b5a66729ecfcd9b5568b8007d13d6d584fcf"/>
 		<Metadata name="CommonModule.ВзаиморасчетыССотрудниками" id="9dab3da3-a160-40da-b8c7-3b24f2e974f5" configVersion="28f14ce935350957df5db502caf174ee4574dcd9"/>
 		<Metadata name="CommonModule.ВзаиморасчетыССотрудниками.Module" id="9dab3da3-a160-40da-b8c7-3b24f2e974f5.0" configVersion="aa1b71d526bcb8f0827ff1fb53a652aebfa8bce0"/>
-		<Metadata name="CommonModule.ВзаиморасчетыССотрудникамиБазовый" id="66c167f5-3400-4af8-b7b3-5e4800a43ebf" configVersion="8fe18b2609fbdd6c6a76887dbfca18fea07f4e60"/>
-		<Metadata name="CommonModule.ВзаиморасчетыССотрудникамиБазовый.Module" id="66c167f5-3400-4af8-b7b3-5e4800a43ebf.0" configVersion="6f4fdb464847d3ac2dbd748fc40e65c8dfd851da"/>
+		<Metadata name="CommonModule.ВзаиморасчетыССотрудникамиБазовый" id="66c167f5-3400-4af8-b7b3-5e4800a43ebf" configVersion="e6b1dcd5691f1a666c200720ed60aaac6554381d"/>
+		<Metadata name="CommonModule.ВзаиморасчетыССотрудникамиБазовый.Module" id="66c167f5-3400-4af8-b7b3-5e4800a43ebf.0" configVersion="a9656f35e12891b57e9b2ed28fe62e68492d0620"/>
 		<Metadata name="CommonModule.ВзаиморасчетыССотрудникамиРасширенный" id="fee2ff76-0640-4816-96c0-834052e3dffb" configVersion="f2595c3834fa6134d22e0b62785bef75b4fb1b3d"/>
 		<Metadata name="CommonModule.ВзаиморасчетыССотрудникамиРасширенный.Module" id="fee2ff76-0640-4816-96c0-834052e3dffb.0" configVersion="8962ef61776922cb710165194c5f267d1385c155"/>
 		<Metadata name="CommonModule.РасчетЗарплатыРасширенный" id="025a3499-fe43-4be1-9e23-a7c698e286e6" configVersion="fad3611543da9f81c42db72e8995382a91a5fef3"/>
 		<Metadata name="CommonModule.РасчетЗарплатыРасширенный.Module" id="025a3499-fe43-4be1-9e23-a7c698e286e6.0" configVersion="067886539f5d4564640b49b2ed043cb82bf0b77d"/>
 		<Metadata name="CommonModule.РасчетЗарплатыРасширенныйКлиентСервер" id="119420ad-469e-498d-8d05-34aa78718170" configVersion="44c9627fa1748efcf6bad673dda575b196c3a62c"/>
 		<Metadata name="CommonModule.РасчетЗарплатыРасширенныйКлиентСервер.Module" id="119420ad-469e-498d-8d05-34aa78718170.0" configVersion="3a0d2653947da7055e020d4d09920e1f45383a84"/>
-		<Metadata name="CommonModule.РасчетЗарплатыРасширенныйФормы" id="8a16973c-2714-4b6e-8793-261ef56dc87a" configVersion="8f62f399165a539b6cab27fdff74ee840cb235ac"/>
-		<Metadata name="CommonModule.РасчетЗарплатыРасширенныйФормы.Module" id="8a16973c-2714-4b6e-8793-261ef56dc87a.0" configVersion="b7732e235eb14f698806a8f4abdf2714342cf505"/>
-		<Metadata name="CommonModule.УчетНДФЛ" id="bf14d164-887c-4314-8f0e-ead61012e539" configVersion="7622db2439934ea88e9c9ea0ff02b5a2da859348"/>
-		<Metadata name="CommonModule.УчетНДФЛ.Module" id="bf14d164-887c-4314-8f0e-ead61012e539.0" configVersion="695f1baa7eff126bcbe4c9d71fd094c5ad25f160"/>
-		<Metadata name="CommonModule.УчетНДФЛАрхивныеАлгоритмы" id="c82c37c3-7288-4d53-8254-99cd5724d222" configVersion="b9e42016613fc3a6824aa89031a421c8e310dd70"/>
-		<Metadata name="CommonModule.УчетНДФЛАрхивныеАлгоритмы.Module" id="c82c37c3-7288-4d53-8254-99cd5724d222.0" configVersion="00016f677c40d43b684b8ca5278f73649a486580"/>
+		<Metadata name="CommonModule.РасчетЗарплатыРасширенныйФормы" id="8a16973c-2714-4b6e-8793-261ef56dc87a" configVersion="9e8d3568852a3d698741ad232232b8746c594fe9"/>
+		<Metadata name="CommonModule.РасчетЗарплатыРасширенныйФормы.Module" id="8a16973c-2714-4b6e-8793-261ef56dc87a.0" configVersion="0aa268f74013034e9ae2e88ad75d357e2c4ed66f"/>
+		<Metadata name="CommonModule.УчетНДФЛ" id="bf14d164-887c-4314-8f0e-ead61012e539" configVersion="d0706e4c0549201fa212a9f6655b1adb6afdbc78"/>
+		<Metadata name="CommonModule.УчетНДФЛ.Module" id="bf14d164-887c-4314-8f0e-ead61012e539.0" configVersion="3c63b4eacaeaa6f1e37d03a1808500c79d113a2d"/>
+		<Metadata name="CommonModule.УчетНДФЛАрхивныеАлгоритмы" id="c82c37c3-7288-4d53-8254-99cd5724d222" configVersion="1ee8f0ee74b5e6d440782a780b8f68b150a6e278"/>
+		<Metadata name="CommonModule.УчетНДФЛАрхивныеАлгоритмы.Module" id="c82c37c3-7288-4d53-8254-99cd5724d222.0" configVersion="68bda2d5e8c820294d920e051ed87ec2f6f6a873"/>
 		<Metadata name="CommonModule.УчетРабочегоВремениРасширенный" id="b5a0a383-1717-4b04-bc17-529fb8e07c14" configVersion="75d60229bea62fb7e04e6b7694f68a6d092f0434"/>
 		<Metadata name="CommonModule.УчетРабочегоВремениРасширенный.Module" id="b5a0a383-1717-4b04-bc17-529fb8e07c14.0" configVersion="1a7c3a3a9bf5e38b6ecfc14ecf153a6faf111133"/>
 		<Metadata name="CommonModule.УчетСреднегоЗаработкаКлиентСервер" id="8e07ebee-9ce2-41ca-a147-2c8c01d62b06" configVersion="73fa1bb7fcee50d6327dc042b33d00479f0def38"/>
@@ -341,7 +341,7 @@
 			<Metadata name="Document.РазовоеНачисление.Attribute.АБ_ВидРасчетаНочныеПраздничные" id="f6b0c712-690d-48da-b71c-a5778cef6318"/>
 		</Metadata>
 		<Metadata name="Document.РазовоеНачисление.Form.ФормаДокумента" id="26f7d2aa-2f51-4f12-84f3-404042ae1890" configVersion="93032a48be4c73118b4235b3a2374c6dba62b5c4"/>
-		<Metadata name="Document.РазовоеНачисление.Form.ФормаДокумента.Form" id="26f7d2aa-2f51-4f12-84f3-404042ae1890.0" configVersion="ac7c30c39e1bd0e4be61c9b485e2e2931ee53098"/>
+		<Metadata name="Document.РазовоеНачисление.Form.ФормаДокумента.Form" id="26f7d2aa-2f51-4f12-84f3-404042ae1890.0" configVersion="648212433b777db7ef10764b50ffaf42ab969a74"/>
 		<Metadata name="Enum.АБ_ТипыНорм" id="2bb8ce6d-3664-421b-bb86-4a7a2dfe541c" configVersion="85bba6ca09ba1a4c8397cabf1bba439b195a004f">
 			<Metadata name="Enum.АБ_ТипыНорм.EnumValue.АБ_Праздничные" id="0f61e1bf-c49a-4795-bf32-607bacf20d69"/>
 			<Metadata name="Enum.АБ_ТипыНорм.EnumValue.АБ_Ночные" id="44d504cb-0046-4c85-9274-3fef087da8fc"/>

@@ -501,6 +501,7 @@
 					<v8:content>Элементы дополнительно</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
 			<Behavior>Usual</Behavior>
 			<ExtendedTooltip name="ЭлементыДополнительноРасширеннаяПодсказка" id="1243"/>
 		</UsualGroup>
@@ -546,11 +547,6 @@
 									<CommandName>0</CommandName>
 									<ExtendedTooltip name="НачисленияДобавитьРасширеннаяПодсказка" id="241"/>
 								</Button>
-								<Button name="ЗаполнитьПоказатели" id="297">
-									<Type>UsualButton</Type>
-									<CommandName>0</CommandName>
-									<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="298"/>
-								</Button>
 								<Button name="ПересчитатьДокумент" id="222">
 									<Type>UsualButton</Type>
 									<Enabled>false</Enabled>
@@ -567,6 +563,33 @@
 									</Title>
 									<ExtendedTooltip name="КомандыНачисленияExtendedTooltip" id="160"/>
 									<ChildItems>
+										<Popup name="ПодменюЗаполнитьПоказатели" id="1312">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить показатели</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подменю заполнить показатели</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ПодменюЗаполнитьПоказателиРасширеннаяПодсказка" id="1313"/>
+											<ChildItems>
+												<Button name="ЗаполнитьПоказатели" id="297">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="298"/>
+												</Button>
+												<Button name="ЗаполнитьПоказателиПоСотруднику" id="1316">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЗаполнитьПоказателиПоСотрудникуРасширеннаяПодсказка" id="1317"/>
+												</Button>
+											</ChildItems>
+										</Popup>
 										<Button name="Добавить" id="242">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
@@ -765,6 +788,37 @@
 									</Title>
 									<ExtendedTooltip name="ДатыНачисленияРасширеннаяПодсказка" id="1243"/>
 									<ChildItems>
+										<ColumnGroup name="НачисленияПериод" id="1304">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Начисления период</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Начисления период</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="НачисленияПериодРасширеннаяПодсказка" id="1305"/>
+											<ChildItems>
+												<InputField name="НачисленияДатаНачала" id="1306">
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<ContextMenu name="НачисленияДатаНачалаКонтекстноеМеню" id="1307"/>
+													<ExtendedTooltip name="НачисленияДатаНачалаРасширеннаяПодсказка" id="1308"/>
+												</InputField>
+												<InputField name="НачисленияДатаОкончания" id="1309">
+													<EditMode>EnterOnInput</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<ContextMenu name="НачисленияДатаОкончанияКонтекстноеМеню" id="1310"/>
+													<ExtendedTooltip name="НачисленияДатаОкончанияРасширеннаяПодсказка" id="1311"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
 										<InputField name="НачисленияПериодДействия" id="1252">
 											<Title>
 												<v8:item>
@@ -1826,11 +1880,6 @@
 										<CommandName>0</CommandName>
 										<ExtendedTooltip name="НачисленияДобавитьРасширеннаяПодсказка" id="241"/>
 									</Button>
-									<Button name="ЗаполнитьПоказатели" id="297">
-										<Type>UsualButton</Type>
-										<CommandName>0</CommandName>
-										<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="298"/>
-									</Button>
 									<Button name="ПересчитатьДокумент" id="222">
 										<Type>UsualButton</Type>
 										<Enabled>false</Enabled>
@@ -1847,6 +1896,33 @@
 										</Title>
 										<ExtendedTooltip name="КомандыНачисленияExtendedTooltip" id="160"/>
 										<ChildItems>
+											<Popup name="ПодменюЗаполнитьПоказатели" id="1312">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Заполнить показатели</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Подменю заполнить показатели</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="ПодменюЗаполнитьПоказателиРасширеннаяПодсказка" id="1313"/>
+												<ChildItems>
+													<Button name="ЗаполнитьПоказатели" id="297">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="298"/>
+													</Button>
+													<Button name="ЗаполнитьПоказателиПоСотруднику" id="1316">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ЗаполнитьПоказателиПоСотрудникуРасширеннаяПодсказка" id="1317"/>
+													</Button>
+												</ChildItems>
+											</Popup>
 											<Button name="Добавить" id="242">
 												<Type>CommandBarButton</Type>
 												<CommandName>0</CommandName>
@@ -2045,6 +2121,37 @@
 										</Title>
 										<ExtendedTooltip name="ДатыНачисленияРасширеннаяПодсказка" id="1243"/>
 										<ChildItems>
+											<ColumnGroup name="НачисленияПериод" id="1304">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Начисления период</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Начисления период</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="НачисленияПериодРасширеннаяПодсказка" id="1305"/>
+												<ChildItems>
+													<InputField name="НачисленияДатаНачала" id="1306">
+														<TitleLocation>None</TitleLocation>
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<ContextMenu name="НачисленияДатаНачалаКонтекстноеМеню" id="1307"/>
+														<ExtendedTooltip name="НачисленияДатаНачалаРасширеннаяПодсказка" id="1308"/>
+													</InputField>
+													<InputField name="НачисленияДатаОкончания" id="1309">
+														<EditMode>EnterOnInput</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<ContextMenu name="НачисленияДатаОкончанияКонтекстноеМеню" id="1310"/>
+														<ExtendedTooltip name="НачисленияДатаОкончанияРасширеннаяПодсказка" id="1311"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
 											<InputField name="НачисленияПериодДействия" id="1252">
 												<Title>
 													<v8:item>
