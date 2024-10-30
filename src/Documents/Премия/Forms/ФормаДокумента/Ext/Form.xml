@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<CommandSet>
+		<ExcludedCommand>PostAndClose</ExcludedCommand>
+	</CommandSet>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -426,21 +432,11 @@
 									<CommandName>0</CommandName>
 									<ExtendedTooltip name="НачисленияДобавитьРасширеннаяПодсказка" id="330"/>
 								</Button>
-								<Button name="ЗаполнитьПоказатели" id="383">
-									<Type>UsualButton</Type>
-									<CommandName>0</CommandName>
-									<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="384"/>
-								</Button>
 								<Button name="ПересчитатьДокумент" id="292">
 									<Type>UsualButton</Type>
 									<Enabled>false</Enabled>
 									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ПересчитатьДокументРасширеннаяПодсказка" id="293"/>
-								</Button>
-								<Button name="ПодробнееОРасчетеУдержаний" id="69">
-									<Type>Hyperlink</Type>
-									<CommandName>0</CommandName>
-									<ExtendedTooltip name="ПодробнееОРасчетеУдержанийExtendedTooltip" id="200"/>
 								</Button>
 								<CommandBar name="КомандыНачисления" id="228">
 									<Title>
@@ -451,6 +447,33 @@
 									</Title>
 									<ExtendedTooltip name="КомандыНачисленияРасширеннаяПодсказка" id="229"/>
 									<ChildItems>
+										<Popup name="ПодменюЗаполнитьПоказатели" id="1283">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Заполнить показатели</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подменю заполнить показатели</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ПодменюЗаполнитьПоказателиРасширеннаяПодсказка" id="1284"/>
+											<ChildItems>
+												<Button name="ЗаполнитьПоказатели" id="383">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="384"/>
+												</Button>
+												<Button name="ЗаполнитьПоказателиПоСотруднику" id="1287">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЗаполнитьПоказателиПоСотрудникуРасширеннаяПодсказка" id="1288"/>
+												</Button>
+											</ChildItems>
+										</Popup>
 										<Button name="Добавить" id="357">
 											<Type>CommandBarButton</Type>
 											<CommandName>0</CommandName>
@@ -534,6 +557,11 @@
 											<CommandName>0</CommandName>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ВыделитьВсеРасширеннаяПодсказка" id="356"/>
+										</Button>
+										<Button name="ПодробнееОРасчетеУдержаний" id="69">
+											<Type>CommandBarHyperlink</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ПодробнееОРасчетеУдержанийExtendedTooltip" id="200"/>
 										</Button>
 									</ChildItems>
 								</CommandBar>
@@ -1432,7 +1460,13 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.15">
+	<BaseForm version="2.17">
+		<CommandSet>
+			<ExcludedCommand>PostAndClose</ExcludedCommand>
+		</CommandSet>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 			<ChildItems>
@@ -1840,21 +1874,11 @@
 										<CommandName>0</CommandName>
 										<ExtendedTooltip name="НачисленияДобавитьРасширеннаяПодсказка" id="330"/>
 									</Button>
-									<Button name="ЗаполнитьПоказатели" id="383">
-										<Type>UsualButton</Type>
-										<CommandName>0</CommandName>
-										<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="384"/>
-									</Button>
 									<Button name="ПересчитатьДокумент" id="292">
 										<Type>UsualButton</Type>
 										<Enabled>false</Enabled>
 										<CommandName>0</CommandName>
 										<ExtendedTooltip name="ПересчитатьДокументРасширеннаяПодсказка" id="293"/>
-									</Button>
-									<Button name="ПодробнееОРасчетеУдержаний" id="69">
-										<Type>Hyperlink</Type>
-										<CommandName>0</CommandName>
-										<ExtendedTooltip name="ПодробнееОРасчетеУдержанийExtendedTooltip" id="200"/>
 									</Button>
 									<CommandBar name="КомандыНачисления" id="228">
 										<Title>
@@ -1865,6 +1889,33 @@
 										</Title>
 										<ExtendedTooltip name="КомандыНачисленияРасширеннаяПодсказка" id="229"/>
 										<ChildItems>
+											<Popup name="ПодменюЗаполнитьПоказатели" id="1283">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Заполнить показатели</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Подменю заполнить показатели</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="ПодменюЗаполнитьПоказателиРасширеннаяПодсказка" id="1284"/>
+												<ChildItems>
+													<Button name="ЗаполнитьПоказатели" id="383">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ЗаполнитьПоказателиРасширеннаяПодсказка" id="384"/>
+													</Button>
+													<Button name="ЗаполнитьПоказателиПоСотруднику" id="1287">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ЗаполнитьПоказателиПоСотрудникуРасширеннаяПодсказка" id="1288"/>
+													</Button>
+												</ChildItems>
+											</Popup>
 											<Button name="Добавить" id="357">
 												<Type>CommandBarButton</Type>
 												<CommandName>0</CommandName>
@@ -1948,6 +1999,11 @@
 												<CommandName>0</CommandName>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ВыделитьВсеРасширеннаяПодсказка" id="356"/>
+											</Button>
+											<Button name="ПодробнееОРасчетеУдержаний" id="69">
+												<Type>CommandBarHyperlink</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ПодробнееОРасчетеУдержанийExtendedTooltip" id="200"/>
 											</Button>
 										</ChildItems>
 									</CommandBar>
