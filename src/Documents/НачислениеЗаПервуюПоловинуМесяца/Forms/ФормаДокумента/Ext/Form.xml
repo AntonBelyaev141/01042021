@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<CommandSet>
+		<ExcludedCommand>PostAndClose</ExcludedCommand>
+	</CommandSet>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 		<ChildItems>
@@ -919,10 +925,82 @@
 											<ExtendedTooltip name="НДФЛНалогExtendedTooltip" id="513"/>
 										</InputField>
 										<InputField name="НДФЛНалогСПревышения" id="721">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Налог с превышения</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="НДФЛНалогСПревышенияКонтекстноеМеню" id="722"/>
 											<ExtendedTooltip name="НДФЛНалогСПревышенияРасширеннаяПодсказка" id="723"/>
 										</InputField>
+										<ColumnGroup name="ГруппаКолонокНалогПоПрогрессивнымСтавкам" id="741">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Налог по прогр. ставкам</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Налог по прогрессивным ставкам</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="ГруппаКолонокНалогПоПрогрессивнымСтавкамРасширеннаяПодсказка" id="742"/>
+											<ChildItems>
+												<InputField name="НДФЛНалогСПревышенияПоСтавке15" id="752">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>15%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛНалогСПревышенияПоСтавке15КонтекстноеМеню" id="753"/>
+													<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке15РасширеннаяПодсказка" id="754"/>
+												</InputField>
+												<InputField name="НДФЛНалогСПревышенияПоСтавке18" id="743">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>18%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛНалогСПревышенияПоСтавке18КонтекстноеМеню" id="744"/>
+													<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке18РасширеннаяПодсказка" id="745"/>
+												</InputField>
+												<InputField name="НДФЛНалогСПревышенияПоСтавке20" id="746">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>20%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛНалогСПревышенияПоСтавке20КонтекстноеМеню" id="747"/>
+													<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке20РасширеннаяПодсказка" id="748"/>
+												</InputField>
+												<InputField name="НДФЛНалогСПревышенияПоСтавке22" id="749">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>22%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛНалогСПревышенияПоСтавке22КонтекстноеМеню" id="750"/>
+													<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке22РасширеннаяПодсказка" id="751"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
 										<InputField name="НДФЛЗачтеноАвансовыхПлатежей" id="619">
 											<UserVisible>
 												<xr:Common>false</xr:Common>
@@ -932,10 +1010,97 @@
 											<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейРасширеннаяПодсказка" id="621"/>
 										</InputField>
 										<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышения" id="724">
+											<UserVisible>
+												<xr:Common>false</xr:Common>
+											</UserVisible>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Зачтено авансов (в счет превышения)</v8:content>
+												</v8:item>
+											</Title>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияКонтекстноеМеню" id="725"/>
 											<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияРасширеннаяПодсказка" id="726"/>
 										</InputField>
+										<ColumnGroup name="ГруппаКолонокЗачтеноАвансовВСчетСуммПоПрогрессивнымСтавкам" id="755">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Зачтено авансов в счет сумм по прогр. ставкам</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Зачтено авансов в счет сумм по прогрессивным ставкам</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="ГруппаКолонокЗачтеноАвансовВСчетСуммПоПрогрессивнымСтавкамРасширеннаяПодсказка" id="756"/>
+											<ChildItems>
+												<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке15" id="766">
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>15%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке15КонтекстноеМеню" id="767"/>
+													<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке15РасширеннаяПодсказка" id="768"/>
+												</InputField>
+												<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке18" id="763">
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>18%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке18КонтекстноеМеню" id="764"/>
+													<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке18РасширеннаяПодсказка" id="765"/>
+												</InputField>
+												<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке20" id="760">
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>20%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке20КонтекстноеМеню" id="761"/>
+													<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке20РасширеннаяПодсказка" id="762"/>
+												</InputField>
+												<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке22" id="757">
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>22%</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке22КонтекстноеМеню" id="758"/>
+													<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке22РасширеннаяПодсказка" id="759"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
 										<InputField name="НДФЛМесяцНалоговогоПериода" id="224">
 											<EditMode>EnterOnInput</EditMode>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -1284,7 +1449,13 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
-	<BaseForm version="2.15">
+	<BaseForm version="2.17">
+		<CommandSet>
+			<ExcludedCommand>PostAndClose</ExcludedCommand>
+		</CommandSet>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<Autofill>false</Autofill>
 			<ChildItems>
@@ -2204,10 +2375,82 @@
 												<ExtendedTooltip name="НДФЛНалогExtendedTooltip" id="513"/>
 											</InputField>
 											<InputField name="НДФЛНалогСПревышения" id="721">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Налог с превышения</v8:content>
+													</v8:item>
+												</Title>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="НДФЛНалогСПревышенияКонтекстноеМеню" id="722"/>
 												<ExtendedTooltip name="НДФЛНалогСПревышенияРасширеннаяПодсказка" id="723"/>
 											</InputField>
+											<ColumnGroup name="ГруппаКолонокНалогПоПрогрессивнымСтавкам" id="741">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Налог по прогр. ставкам</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Налог по прогрессивным ставкам</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="ГруппаКолонокНалогПоПрогрессивнымСтавкамРасширеннаяПодсказка" id="742"/>
+												<ChildItems>
+													<InputField name="НДФЛНалогСПревышенияПоСтавке15" id="752">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>15%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛНалогСПревышенияПоСтавке15КонтекстноеМеню" id="753"/>
+														<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке15РасширеннаяПодсказка" id="754"/>
+													</InputField>
+													<InputField name="НДФЛНалогСПревышенияПоСтавке18" id="743">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>18%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛНалогСПревышенияПоСтавке18КонтекстноеМеню" id="744"/>
+														<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке18РасширеннаяПодсказка" id="745"/>
+													</InputField>
+													<InputField name="НДФЛНалогСПревышенияПоСтавке20" id="746">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>20%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛНалогСПревышенияПоСтавке20КонтекстноеМеню" id="747"/>
+														<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке20РасширеннаяПодсказка" id="748"/>
+													</InputField>
+													<InputField name="НДФЛНалогСПревышенияПоСтавке22" id="749">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>22%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛНалогСПревышенияПоСтавке22КонтекстноеМеню" id="750"/>
+														<ExtendedTooltip name="НДФЛНалогСПревышенияПоСтавке22РасширеннаяПодсказка" id="751"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
 											<InputField name="НДФЛЗачтеноАвансовыхПлатежей" id="619">
 												<UserVisible>
 													<xr:Common>false</xr:Common>
@@ -2217,10 +2460,97 @@
 												<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейРасширеннаяПодсказка" id="621"/>
 											</InputField>
 											<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышения" id="724">
+												<UserVisible>
+													<xr:Common>false</xr:Common>
+												</UserVisible>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Зачтено авансов (в счет превышения)</v8:content>
+													</v8:item>
+												</Title>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияКонтекстноеМеню" id="725"/>
 												<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияРасширеннаяПодсказка" id="726"/>
 											</InputField>
+											<ColumnGroup name="ГруппаКолонокЗачтеноАвансовВСчетСуммПоПрогрессивнымСтавкам" id="755">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Зачтено авансов в счет сумм по прогр. ставкам</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Зачтено авансов в счет сумм по прогрессивным ставкам</v8:content>
+													</v8:item>
+												</ToolTip>
+												<Group>Horizontal</Group>
+												<ExtendedTooltip name="ГруппаКолонокЗачтеноАвансовВСчетСуммПоПрогрессивнымСтавкамРасширеннаяПодсказка" id="756"/>
+												<ChildItems>
+													<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке15" id="766">
+														<UserVisible>
+															<xr:Common>false</xr:Common>
+														</UserVisible>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>15%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке15КонтекстноеМеню" id="767"/>
+														<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке15РасширеннаяПодсказка" id="768"/>
+													</InputField>
+													<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке18" id="763">
+														<UserVisible>
+															<xr:Common>false</xr:Common>
+														</UserVisible>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>18%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке18КонтекстноеМеню" id="764"/>
+														<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке18РасширеннаяПодсказка" id="765"/>
+													</InputField>
+													<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке20" id="760">
+														<UserVisible>
+															<xr:Common>false</xr:Common>
+														</UserVisible>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>20%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке20КонтекстноеМеню" id="761"/>
+														<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке20РасширеннаяПодсказка" id="762"/>
+													</InputField>
+													<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке22" id="757">
+														<UserVisible>
+															<xr:Common>false</xr:Common>
+														</UserVisible>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>22%</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+														<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке22КонтекстноеМеню" id="758"/>
+														<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияПоСтавке22РасширеннаяПодсказка" id="759"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
 											<InputField name="НДФЛМесяцНалоговогоПериода" id="224">
 												<EditMode>EnterOnInput</EditMode>
 												<HorizontalStretch>false</HorizontalStretch>
